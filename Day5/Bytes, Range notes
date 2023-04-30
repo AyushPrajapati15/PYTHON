@@ -1,0 +1,17 @@
+bytes
+
+• The bytes data type is use to represent a group of byte number
+• Bytes is just like an array which can hold multiple value
+• Bytes can store the number in between 0 to 255(included)
+• Bytes can not hold negative numbers
+• We cannot modify the elements\value
+
+bytearray
+
+• The bytearray data type is same as byte data type but the difference is in bytearray is we can modify the elements\value.
+
+
+
+ Range Data type
+ //python.exe -m 
+pip install --upgrade pip
