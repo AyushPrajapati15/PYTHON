@@ -1,0 +1,24 @@
+To perform operations on data we required operator
+-->  Addition
+-->  Substraction
+-->  Multiplication
+-->  Division
+-->  Floor Division
+-->  Modulus
+-->  Power
+
+
+Operator -- operator are mathematical symbol used to perform certain operations on data (Also known as Operand)
+
+operator = +,=,-,*,/,%,&,^
+
+Types of Operator :-
+    -->      Arithmetic Operator
+    -->      Assignment Operator
+    -->      Relational Operator
+    -->      Logical Operator
+    -->      Bitwise Operator
+    -->      Unary Minus Operator
+    -->      Membership Operator\
+                                 Special Operator
+    -->      Identity Operator  /      
