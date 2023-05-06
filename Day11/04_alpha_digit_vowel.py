@@ -2,6 +2,7 @@
 
 char = input("Enter a character: ")
 
+
 if char.isalpha():
     if char.islower():
         print(char, "is a lowercase alphabet")
