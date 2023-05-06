@@ -1,4 +1,5 @@
 sal=int(input("Enter your Salary\n"))
+
 gender=input("enter yor gender\n")
 
 if gender=='m':

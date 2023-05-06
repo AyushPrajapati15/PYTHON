@@ -7,7 +7,9 @@ marks6=int(input("Enter your marks6: "))
 
 total=marks1+marks2+marks3+marks4+marks5+marks6
 avg=total/6
+
 print(total)
+
 print(avg)
 
 if avg>=90:
