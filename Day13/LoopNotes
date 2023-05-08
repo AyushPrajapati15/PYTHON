@@ -1,0 +1,20 @@
+What is the requirement of Looping?
+
+• If We want to repeat one or more than one line of code repeatedly then we required Looping
+
+• Looping is also known as Repetition or Iteration
+
+There are two types of loop in python --> For
+                                      --> while
+While Loop:-
+
+In loop we require 3 things:-   (3S rule)
+    Start Value
+    Stop Value
+    Step Value
+
+SYNTAX:-
+            initialization
+            while Condition:
+                Statement
+                Increment/Decrement
