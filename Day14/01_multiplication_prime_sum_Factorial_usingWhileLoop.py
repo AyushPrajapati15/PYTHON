@@ -9,7 +9,7 @@ while i<=10:
 
 
 # Factorial of a number
-n=int(input("Enter a number: "))
+n=int(input("Enter a number whose fact you want to know: "))
 fact=1
 while n>0:
     fact=fact*n
@@ -18,7 +18,7 @@ print(fact)
 
 # prime or not using while loop
 
-n = int(input("Enter a number"))
+n = int(input("Enter a number to check whether it is prime or not"))
 i=1
 count=0
 while i<=n:
@@ -31,7 +31,7 @@ else:
     print(n," is not a prime number")
 
 # sum of its digits using a while loop.
-n = int(input("Enter a number: "))
+n = int(input("Enter a number to calculate the sum of it's digits: "))
 sum=0
 while n>0:
     r=int(n%10)
