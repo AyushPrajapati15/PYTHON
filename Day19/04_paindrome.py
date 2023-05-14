@@ -12,3 +12,4 @@ if sum==temp:
     print("Palindrome")
 else:
     print("Not a palindrome number")
+
