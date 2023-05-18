@@ -1,0 +1,13 @@
+<!-- Characterstics of lists -->
+• Lists is maintaining order, means in which order we inserted elements in same order it will sorted in list.
+• List holds different types of data items, means          heterogenous objects are allowed.
+• Duplicate elements are allowed
+• List is dynamic in nature, means based on our requirement we ca increase or decrease the size of the list
+• List is mutable in nature, mutable means changeable means based on requirement we can modify the lists items.
+• We can access lists elements b using int index(both positive and negative) and slice operator.
+• Lists contain the complex level objects like Class,Function,Module,etc
+
+<!-- Accessing elements of lists -->
+• Accessing elements of lists We can access list elements using index and slice operator
+
+<!-- List traversing -->
