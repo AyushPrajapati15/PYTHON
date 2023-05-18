@@ -1,0 +1,41 @@
+<!-- List Data Structure -->
+
+What is the requirement of List and How List came into the picture?
+
+Ans: By using Fundamental data type like int, float, complex, bool and str we can store one value at a time but if you want to store multiple value at a time into as a single entity then we may can use list (Not only list we can use other collection also), to overcome this problem list came into the picture.
+
+<!-- Introduction to List: -->
+
+• List is an inbuild data structure in Python, which is used to store heterogenous data item means dissimilar data item.
+
+• List is acting as a container where we can store comma separated
+value in between square brackets.
+
+
+<!-- Example:- -->
+
+<!-- creation of list directly -->
+
+l=[23,33,'Alice',True,5.5]
+l=[]  ---> Empty list
+
+ <!-- creation of lists Dynamically using eval() function -->
+ input("Enter a list") # by default it is string
+
+int(input("Enter a lists")) # now it will take integer type
+
+ so to create a list using eval function we have to tpe cast it to eval()
+ l=eval(input("Enter a lists))
+
+ <!-- Enter a lists [10,20,30,'alice','bob'] in the same way we have to enter the lists inside [] bracket  -->
+
+<!--   creation of lists using list() -->
+l= list((20,50,40,60))
+
+ <!-- creation of lists using range() -->
+ l= list(range(10,21))
+
+ # NOTE := "List can hold any complex datatype like dictionary,tuple,etc"
+
+ <!-- #  creation of lists using split() -->
+ split- it is basically used to make a list of a string by default wherever it will get a space it will make listi out of it, but we can pass the value such as split(''-) it menas where there is a '-' it will make a list of it
