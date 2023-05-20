@@ -24,5 +24,7 @@ if list contain heteroenous(number,alphabet) elements then in this case sort() w
 
 # clear():-
 it is used to clear or remove all the elements of list
+(del l ) it will delete the list along with the variable
 
-# copy()
+# copy():- copy means different assign means same
+it is used to shallow copy of a list, here shallow copy means if we made any modificaton in the new list won't be reflected in the original list
