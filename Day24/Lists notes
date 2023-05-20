@@ -3,15 +3,6 @@
     # append()-- used to add element at the end of the list,similar to PUSH operation 
     #            in datastructure
 
-    # insert()-- it is used to insert item at 
-                 specific location 
-    # count()
-    # index()
-    # remove()
-    # pop()
-    # extends()
-    # reverse()
-    # sort()
-    # clear()
-    # copy()
+    # insert()-- it is used to insert item at specific location 
+    
     
