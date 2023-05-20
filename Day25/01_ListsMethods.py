@@ -55,10 +55,26 @@ print(l)
 l=['bob','alice','mary','jack']
 l.sort()
 print(l)
+print()
+
 
 #  clear()
 l=[1,4,61,5,2,4,3,4,56,1,4,5,1]
 print(l)
 l.clear()
 print(l)
-# del l  it will delete the list along with the 
+print()
+
+
+# copy()
+l=[11,22,33,44,55,66,77,88]
+s=l.copy()
+print(l)
+print(s)
+print(id(l))
+print(id(s))
+
+s[2]=25 #update
+print(l)
+print(s)
+
