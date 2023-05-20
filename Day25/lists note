@@ -1,0 +1,28 @@
+# count() :- 
+it is used to count the number of times an element appears in the list.
+
+# index() :- 
+it is used to return the specified element index
+
+# remove():- 
+it is used to remove the speciffied element from the list.if the specified element present multiple times, then it will remove the first occurrence
+
+# pop() :- 
+By default it is used to remove and return the last element of the list. if we will provide the index then it will remove that particular index
+
+# extends():-
+it is used to add all the elements of one list into another list
+
+# reverse():-
+it is used to reverse a list
+
+# sort():-
+it is used for sorting or arranging elements either in ascending or descending order.
+if we will provide reverse=True, then it will print in descending order
+if it contains numer then it will work based on ascending order,but if the list contain string then it will work in alphabet order.
+if list contain heteroenous(number,alphabet) elements then in this case sort() will not work, but in python 2 it will forst sort number then alphabet
+
+# clear():-
+it is used to clear or remove all the elements of list
+
+# copy()
