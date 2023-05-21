@@ -10,7 +10,6 @@ for i in list:
 print("Maximum element:", maximum)
 
 
-
 # program to find the minimum element in a list 
 list = [5, 2, 8, 1, 9, 3, 7]
 
