@@ -9,11 +9,10 @@ for i in num:
 
 average = sum / count
 print("Average:", average)
-
-
+print("")
 
 #  program to remove duplicates from a list
 list = [1, 2, 3, 4, 1, 2, 5, 6, 3, 4, 7, 8, 9, 5]
-list = list(set(list))
+list = set(list)
 print(list)
 
