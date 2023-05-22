@@ -2,9 +2,9 @@ l=[1,2,3,5,6,7,9,11,12,17,18,23,24,25,67,92,99]
 ch=int(input("Enter your lucky number "))
 
 if ch in l:
-    print("Yes your lucky number is present in the lst")
+    print("Yes your lucky number is present in the list")
 else:
-    print("No your lucky number is not present in the ist")
+    print("No your lucky number is not present in the list")
 print()
 
 
@@ -16,7 +16,8 @@ ch=int(input("Enter your lucky number"))
 
 while True:
     if ch in l:
-        print("Yes your lucky number is present in the lst")
+        print("Yes your lucky number is present in the list ")
+        break;
     else:
-        print("No your lucky number is not present in the ist")
+        print("No your lucky number is not present in the list ")
         ch=int(input("Enter your lucky number again: "))
