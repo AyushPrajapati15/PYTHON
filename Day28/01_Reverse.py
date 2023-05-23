@@ -7,6 +7,7 @@ while n>=0:
     n=n-1
 print()
 
+
 # Print list in reverse order using negative index
 l=[10,20,30,40,50]
 i=-1
