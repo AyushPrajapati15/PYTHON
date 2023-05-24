@@ -1,0 +1,11 @@
+list comparison using Equality operator(==,!=)
+
+It will return true
+if number of elements are same
+contents are same
+order are same &
+case also same
+
+
+nested list:- if a list is present another list then is called nested list
+l=[[],[],[],[]]
