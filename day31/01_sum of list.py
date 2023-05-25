@@ -23,3 +23,4 @@ for i in range(rows):
 print("Column sums:")
 for j in range(columns):
     print(f"Column {j+1}: {column_sums[j]}")
+
