@@ -1,0 +1,2 @@
+<!-- List Comprehenson -->
+If you want to create a list from iterable objects like list,tuple,range,dict etc. by writing very less code in efficient way then we can go for lst comprehension
