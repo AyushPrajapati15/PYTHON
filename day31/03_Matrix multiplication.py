@@ -17,3 +17,4 @@ for i in range(len(matrix1)):
 print("Result of matrix multiplication:")
 for row in result:
     print(row)
+    
