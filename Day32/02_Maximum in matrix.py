@@ -18,4 +18,5 @@ for i in matrix:
             max_element = j
 
 print("The maximum element of the matrix is: ")
+
 print(max_element)
