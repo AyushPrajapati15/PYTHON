@@ -1,0 +1,65 @@
+<!-- Introduction to Tuple Data Structure -->
+
+• Tuple is a inbuild Data Structure in Python, it is similar to List Data Structure but the key difference between Tuple and List is, Tuple is immutable where List is mutable.
+
+• Tuple is immutable in nature it means once we created tuple object we cant perform any modification on it.
+
+<!-- Diagrammatical representation of Tuple : -->
+
+• () parenthesis symbol is used to create tuple
+
+t=(23,33,43,53,63)
+
+
+<!-- Characterises of Tuple -->
+
+• Tuple is immutable in nature
+• Tuple maintaing order
+• Tuple can hold different data item
+• Duplicate elements are allowed
+• () parenthesis is optional but it is recommended
+• Tuple support both positive and negative index
+
+
+
+<!-- Tuple Methods:- -->
+Actually tuple is having only two methods
+1.Index
+2.Count
+3.cmp() # Now in python 3 it is outdated
+But we can use other normal method along with tuple
+4.len()
+5.min()
+6.max()
+7.sorted()
+
+
+<!-- Tuple Methods -->
+<!-- 1. Index() -->
+It will return the index of first occurrences of the given element
+t = (23, 33, 43, 33, 23, 53, 63) print(t.index(33))
+<!-- 2.count() -->
+It will return the specified element present how many number of times.
+t = (23, 33, 43, 33, 23, 53, 63) print(t.count(33))
+
+<!-- 3. cmp() -->
+Cmp() function is used to compare tuples but in python 3 version onwards it is outdated.
+• But it will work in python 2 version
+t1=(10,11)
+t2=(10,1)
+t3=(10,1)
+print(cmp(t1, t2)) # 1
+print(cmp(t2,t1)) #-1
+print(cmp(t2, t3)) # 0
+How it works:
+• If first tuple is greater than second then it will return 1 else -1
+If both tuple same then it will return 0
+Note: Instead of cmp() function we will simply use == != >< symbol for comparison.
+
+
+<!-- 7. sorted() -->
+By default it will sort in ascending order.
+t = sorted(e)
+e (12, 11, 34, 23, 21, 45, 1) print(t) #[1, 11, 12, 21, 23, 34, 45]
+We can also sort in descending order by passing reverse=True
+e (12, 11, 34, 23, 21, 45, 1) t = sorted(e, reverse=True) print(t) # [45, 34, 23, 21, 12, 11, 1]
