@@ -24,6 +24,3 @@ while i<len(t):
     print(t)
     i=i+1
 print()
-
-
-
