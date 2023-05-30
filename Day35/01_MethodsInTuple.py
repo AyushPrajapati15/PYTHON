@@ -8,6 +8,7 @@ element = 'apple'
 index = my_tuple.index(element)
 print(f"The index of '{element}' is: {index}")
 
+
 my_tuple = ('H', 'e', 'l', 'l', 'o')
 string = ''.join(my_tuple)
 print(string)
