@@ -29,6 +29,7 @@ my_tuple = (1, 2, 3, 4, 5)
 sliced_tuple = my_tuple[1:4]
 print(sliced_tuple)
 
+
 my_tuple = ('apple', 'banana', 'cherry', 'apple', 'orange')
 element = 'apple'
 count = my_tuple.count(element)
