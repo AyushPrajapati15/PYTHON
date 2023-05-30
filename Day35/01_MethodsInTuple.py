@@ -2,6 +2,7 @@ original_tuple = (1, 2, 3, 4, 5)
 reversed_tuple = tuple(reversed(original_tuple))
 print(reversed_tuple)
 
+
 my_tuple = ('apple', 'banana', 'cherry', 'apple', 'orange')
 element = 'apple'
 index = my_tuple.index(element)
