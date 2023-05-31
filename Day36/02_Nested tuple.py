@@ -35,8 +35,8 @@ else:
     print("7 does not exist in the nested tuple.")
 
 
-nested_tuple = ((1, 2, 3), ('a', 'b', 'c'), (4, 5, 6))
 
+nested_tuple = ((1, 2, 3), ('a', 'b', 'c'), (4, 5, 6))
 
 for subtuple in nested_tuple:
     for element in subtuple:
