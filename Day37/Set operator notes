@@ -1,17 +1,29 @@
 <!-- Introduction to set & its characteristics -->
 
-. Set data structure is Just like List but in set duplicates are not allowed and set does not maintain order.
-. Set is a unorder collection.
-. In set data structure we cant apply indexing and slicing concept.
-. We can store heterogenous data item.
-.  Set is mutable in nature based on our requirement we can modification operations. 
-. {} curly brackets is used to create set data structure.
+• Set data structure is Just like List but in set duplicates are not allowed and set does not maintain order.
+• Set is a unorder collection.
+• In set data structure we cant apply indexing and slicing concept.
+• We can store heterogenous data item.
+• Set is mutable in nature based on our requirement we can modification operations. 
+• {} curly brackets is used to create set data structure.
 
 <!-- Note -->
 We can modify set but we cant modify its content, hence set is mutable but its elements are immutable in nature.
 
 <!-- Set methods -->
- <!-- add() -->
- used to add an element into set
- it has no effect if the element is already present
- 
+ <!-- 1.add() -->
+• used to add an element into set
+• it has no effect if the element is already present
+
+ <!-- 2.update() -->
+• It is used to add multiple elements into set
+Here we will add iterable object not individual element like List,Tuple,Range etc.
+
+<!-- 3.remove() -->
+• it is used to remove the specified element from the list
+• if the specified element is not present then it will raise keyerror
+
+<!-- discard() -->
+• it is exactly same as remove() but the difference is here if the specified element is not present then wont raise keyerror
+
+
