@@ -8,8 +8,8 @@ s={11,22,33,44,55}
 print(s.pop())
 print()
 
-# copy :- Shallow copy
 
+# copy :- Shallow copy
 s1={10,20,30,40,50}
 s2=s1.copy()
 print(s1)
@@ -56,16 +56,19 @@ for i,j in enumerate(s):
     print(i,j)
 print()
 
+
 # min() and max()
 s={12,22,32,42,52}
 print("The minimum of s elements is ",min(s))
 print("The maximum of s elements is ",max(s))
 print()
 
+
 # Sum()
 s={11,22,33,44,55}
 print(sum(s))
 print()
+
 
 # Sorted()
 s={5,1,2,4,3,6}
