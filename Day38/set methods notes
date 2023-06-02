@@ -1,0 +1,33 @@
+# pop()
+it s used to remove any random element from the set, if the set is empty it will raise key error
+
+# copy()
+it is used to return a shallow copy of a set
+
+clear()
+it is used to remove all the elements from the set.
+Here set will not be delete only its elements will be delete.
+
+Enumerate()
+it will return an enumerate object which contains index as well as value of all the items
+
+
+
+
+# union() 
+it is used to return all the elements present in both set and Common elements will print once
+
+# intersection()
+it is used to return all the common elements present in both the set
+
+
+# difference()
+it is used to return all the elements oresent in set a and not in b
+
+
+# symmetric difference()
+it is used to return all the elements present in set a or b but not in both
+
+# issubset()
+
+# disjoint()
