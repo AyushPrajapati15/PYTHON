@@ -15,7 +15,6 @@ s={i for i in l}
 print(s)
 print()
 
-
 l=[11,22,33,44,55]
 s={i*2 for i in l}
 print(s)
