@@ -1,0 +1,3 @@
+<!-- What is the requirement of set comprehensions? -->
+
+• If we want to create a set from the iterable objects like List,Tuple,Set, Dict, Range etc. by writing less code in efficient way then we can go for set comprehensions.
