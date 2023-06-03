@@ -20,7 +20,6 @@ s={i*2 for i in l}
 print(s)
 print()
 
-
 s={i for i in range(100,111)}
 print(s)
 print()
