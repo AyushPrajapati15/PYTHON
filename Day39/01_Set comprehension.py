@@ -34,10 +34,13 @@ s={i for i in range(20,41) if(i%4==0)}
 print(s)
 print()
 
+
 # Create a set from lists called as names
 names=['alice','bob','mary','jack','david']
 s={i for i in names}
 print(s)
+
+
 # Create a set from lists called as names by adding the first character of each element in uppercase
 names=['alice','bob','mary','jack','david']
 s={i[0].upper() for i in names}
