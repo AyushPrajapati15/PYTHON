@@ -47,6 +47,7 @@ s={i[0].upper() for i in names}
 print(s)
 print()
 
+
 # Create a set from lists called as names by adding all the elements but if element is alice then print jerry
 names=['alice','bob','mary','jack','david']
 s={i if i!='alice' else 'jerry' for i in  names} 
