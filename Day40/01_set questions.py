@@ -40,6 +40,7 @@ common_elements = {element for element in list1 if element in list2}
 print(common_elements)
 print()
 
+
 # Create a set comprehension that contains the lengths of words starting with a vowel in a given sentence.
 sentence = "The quick brown fox jumps over a lazy dog"
 vowel_word_lengths = {len(word) for word in sentence.split() if word[0].lower() in 'aeiou'}
