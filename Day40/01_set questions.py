@@ -25,11 +25,13 @@ first_letters = {word[0] for word in sentence.split() if word.lower() not in ['a
 print(first_letters)
 print()
 
+
 # Create a set comprehension that contains the unique characters present in a given string.
 string = "Hello, World!"
 unique_characters = {char for char in string}
 print(unique_characters)
 print()
+
 
 # Create a set comprehension that contains the common elements between two given lists.
 list1 = [1, 2, 3, 4, 5]
