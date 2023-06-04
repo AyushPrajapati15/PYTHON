@@ -41,6 +41,7 @@ vowel_word_lengths = {len(word) for word in sentence.split() if word[0].lower() 
 print(vowel_word_lengths)
 print()
 
+
 # Create a set comprehension that contains the lowercase consonants present in a given string.
 string = "Hello, World!"
 consonants = {char.lower() for char in string if char.isalpha() and char.lower() not in 'aeiou'}
