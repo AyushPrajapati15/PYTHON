@@ -11,6 +11,7 @@ vowels = {char.lower() for char in string if char.lower() in 'aeiou'}
 print(vowels)
 print()
 
+
 # Create a set comprehension that contains the unique even numbers from a given list.
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 even_numbers = {num for num in numbers if num % 2 == 0}
