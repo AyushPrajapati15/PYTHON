@@ -18,6 +18,7 @@ even_numbers = {num for num in numbers if num % 2 == 0}
 print(even_numbers)
 print()
 
+
 # Create a set comprehension that contains the first letter of each word in a sentence, excluding articles ("a", "an", "the").
 sentence = "The quick brown fox jumps over a lazy dog"
 first_letters = {word[0] for word in sentence.split() if word.lower() not in ['a', 'an', 'the']}
