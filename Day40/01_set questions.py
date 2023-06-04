@@ -55,6 +55,7 @@ vowel_starting_letters = {word[0].lower() for word in sentence.split() if word[0
 print(vowel_starting_letters)
 print()
 
+
 # Create a set comprehension that contains the ASCII values of uppercase letters in a given string.
 string = "Hello, World!"
 ascii_values = {ord(char) for char in string if char.isupper()}
