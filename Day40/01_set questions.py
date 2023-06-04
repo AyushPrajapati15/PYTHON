@@ -48,6 +48,7 @@ consonants = {char.lower() for char in string if char.isalpha() and char.lower()
 print(consonants)
 print()
 
+
 # Create a set comprehension that contains the first letter of each word that starts with a vowel in a given sentence.
 sentence = "An apple a day keeps the doctor away"
 vowel_starting_letters = {word[0].lower() for word in sentence.split() if word[0].lower() in 'aeiou'}
