@@ -4,6 +4,7 @@ word_lengths = {len(word) for word in sentence.split()}
 print(word_lengths)
 print()
 
+
 # Create a set comprehension that contains the lowercase vowels present in a given string.
 string = "Hello, World!"
 vowels = {char.lower() for char in string if char.lower() in 'aeiou'}
