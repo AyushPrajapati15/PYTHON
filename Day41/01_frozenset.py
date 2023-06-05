@@ -31,6 +31,7 @@ fs5=frozenset([99,100])
 fs4= fs1.copy()
 print(fs4)
 print()
+
 print(fs1.union(fs2))
 print()
 print(fs1.intersection(fs2))
