@@ -21,6 +21,7 @@ print()
 # fs=frozenset(range(10))
 # fs.add(222)   not posssible in frezenset
 # fs.remove(5)
+
 # applying other normal methods which will not modify frozenset
 fs1=frozenset([23,33,43,53,63])
 fs2=frozenset([11,22,33,44,53])
