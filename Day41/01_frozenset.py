@@ -37,6 +37,7 @@ print()
 
 print(fs1.intersection(fs2))
 print()
+
 print(fs1.difference(fs2))
 print()
 print(fs1.symmetric_difference(fs2))
