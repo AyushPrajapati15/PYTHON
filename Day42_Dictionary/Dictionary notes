@@ -1,0 +1,15 @@
+Dictionary
+Why Dictionary came into the picture?
+• By using List,Tuple, Set we can store only values.
+• Sometimes as a programmer we required to key and value as a pair in that case we can go for Dictionary.
+What is Dictionary?
+• Dict is a inbuild data structure in python, it is used to store key and value as a pair.
+
+Characteristics of Dictionary
+• Dictionary is mutable in nature so that we can perform modification based on our requirement.
+• Duplicate keys are not allowed, but duplicate values are allowed.
+• Dictionary is Dynamic in nature means based on our requirement we can increase and decrease the size.
+• We cant apply Indexing and Slicing Concept in dictionary.
+• Heterogenous elements are allowed.
+• Dictionary keys are case sensitive.
+#  has_key only available in python 2 version
