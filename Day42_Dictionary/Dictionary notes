@@ -15,4 +15,5 @@ What is Dictionary?
 • We cant apply Indexing and Slicing Concept in dictionary.
 • Heterogenous elements are allowed.
 • Dictionary keys are case sensitive.
+
 #  has_key only available in python 2 version
