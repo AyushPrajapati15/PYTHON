@@ -4,6 +4,7 @@ myInfo={
     'address':'bhubaneswar',
     'mobile':9876543211
 }
+
 print(myInfo['name'])
 print(myInfo)
 print()
