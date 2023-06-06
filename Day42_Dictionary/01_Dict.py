@@ -10,6 +10,7 @@ print(myInfo)
 print()
 
 # different ways for creating a dict
+
 # empty dict
 d={}
 print(d)
