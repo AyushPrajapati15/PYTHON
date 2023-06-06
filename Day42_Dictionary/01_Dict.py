@@ -33,6 +33,7 @@ print(d)
 print(d[1])
 print()
 
+# Empty dictionary using dict()
 d=dict()
 print(d)
 print(type(d))
