@@ -16,6 +16,8 @@ d={}
 print(d)
 print(type(d))
 print()
+
+
 # create empty dict then add item
 d={}
 d['name']='jack'
