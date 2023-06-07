@@ -98,3 +98,41 @@ print()
 # print(d)
 # del d
 # print(d)
+
+
+# dict key immutable in nature hence we can't use list,set,dict ad a dict key but we can use number tuple,frozenset as a dict key otherwise we will get TypeError
+
+# dict using list 
+# d={[10,20,30]:'alice',40:'Jack',50:'bob'}
+# print(d)     ketError 
+
+#dict using tuple 
+d={(10,20,30):'alice',40:'Jack',50:'bob'}
+print(d)
+print()
+
+# dict key using set
+# s=set((10,20,30))
+# d={s:'alice',40:'bob',50:'jack'}
+# print(d)      keyError
+
+# dict key using frozenset
+s=set((10,20,30))
+d={frozenset(s):'alice',40:'bob',50:'jack'}
+print(d)
+print()
+
+d={12.5:'alice',40:'bob',50:'jack'}
+print(d)
+print()
+
+d={10+20:'alice',40:'bob',50:'jack'}
+print(d)
+print()
+
+d={10+20j:'alice',40:'bob',50:'jack'}
+print(d)
+print()
+
+d={True:'alice',40:'bob',50:'jack'}
+print(d)
