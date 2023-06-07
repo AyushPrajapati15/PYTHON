@@ -1,0 +1,32 @@
+# get()
+# items()
+# pop()
+# popitems()
+# keys()
+# values()
+# setdefault()
+# update()
+# copy()
+# clear()
+# fromkeys()
+# str()
+
+# 1.get()
+--> It is used to return the corresponding value associated with that key.  -->If the specified key is not available then it will return the default value.
+
+# 2.items()
+--> In dictionary items means key and value both.
+--> It is used to return list of tuple that contain key and value as a pair.
+
+
+# 3.pop()
+-->It is used to remove the key and its associated value, then it will return that value.
+-->If the key is not available then it will raise KeyError.
+-->pop methods except one argument if will not pass any argument then it will raise TypeError.
+
+# 4.popitems()
+-->It is used to remove the last inserted item in dictionary and return that item in tuple format.
+-->But previously before 3.7, it is used to remove and return any random item.
+
+# 5.keys()
+--> it is used to return all the keys of dictionary in list format
