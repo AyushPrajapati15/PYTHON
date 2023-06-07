@@ -82,19 +82,19 @@ print(d)
 print()
 
 # delete
-d={1:'Alice',2:'Jack',3:'Bob',4:'Mary',5:'David'}
-del d[1024]
-print(d)
-print()
+# d={1:'Alice',2:'Jack',3:'Bob',4:'Mary',5:'David'}
+# del d[1024]
+# print(d)
+# print()
 
 # delete all the items
-d={1:'Alice',2:'Jack',3:'Bob',4:'Mary',5:'David'}
-d.clear()
-print(d)
-print ()
+# d={1:'Alice',2:'Jack',3:'Bob',4:'Mary',5:'David'}
+# d.clear()
+# print(d)
+# print ()
 
 # how to delete entire dictionary
-d={1:'Alice',2:'Jack',3:'Bob',4:'Mary',5:'David'}
-print(d)
-del d
-print(d)
+# d={1:'Alice',2:'Jack',3:'Bob',4:'Mary',5:'David'}
+# print(d)
+# del d
+# print(d)
