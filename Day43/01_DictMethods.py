@@ -44,3 +44,16 @@ print()
 
 # keys()
 d={10:'alice',20:'bob',30:'mary',40:'jack',50:'david',}
+print(d.keys())
+print()
+
+d={10:'alice',20:'bob',30:'mary',40:'jack',50:'david',}
+for i in d.keys():
+    print(i)
+print()
+
+# values()
+
+
+
+
