@@ -1,4 +1,5 @@
 # dictionary methods
+
 # get()
 d={10:'alice',20:'bob',30:'mary',40:'jack',50:'david',}
 
