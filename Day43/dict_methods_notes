@@ -30,3 +30,6 @@
 
 # 5.keys()
 --> it is used to return all the keys of dictionary in list format
+
+# 6.values()
+--> it is used to return all the values of a dictionary in list format
