@@ -53,7 +53,13 @@ for i in d.keys():
 print()
 
 # values()
+d={10:'alice',20:'bob',30:'mary',40:'jack',50:'david',}
+print(d.values())
+print()
 
-
+d={10:'alice',20:'bob',30:'mary',40:'jack',50:'david',}
+for i in d.values():
+    print(i)
+print()
 
 
