@@ -38,8 +38,9 @@ print()
 d1={10:'alice',20:'bob',30:'mary',40:'jack',50:'david',}
 d2={}
 
-d2=d1.copy()
 # d2=d1  pointig to same memory location
+
+d2=d1.copy()
 print(d2)
 print()
 print(id(d1))
