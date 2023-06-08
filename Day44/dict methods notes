@@ -1,0 +1,22 @@
+<!-- 7.setdefault() -->
+Working Process
+-->Here as an argument we will provide key and value
+-->It is used to return the value associated with that specified key.
+--> If the key is not available then key and value will be added as new item to the dictionary
+
+
+<!-- 8.update -->
+Suppose we have two list then, it is used to add all the items of d2 in d1.
+<!-- 9.copy -->
+it is used to copy(shallow cop) all the items from one dict to another dict.
+
+both dict are pointing to diff memory location so if we will make any changes on any particular dict it will not reflect to another dict.
+
+if we are using assignment operator(=) then it is ^pointing to different memory location so if we make any changes to one it will reflect to other
+
+<!-- 10.clear -->
+
+it is basically used to remove all the items of a dict but then our dict will become empty.
+
+<!-- 11.fromkeys() -->
+It is used to create a new dictionary from given iterable (list, tuple,range etc.) and value ( it is optional).
