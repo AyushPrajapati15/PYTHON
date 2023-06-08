@@ -8,6 +8,7 @@ print()
 
 
 #  if the key is available then t will return the corresponding vlue
+
 d={10:'alice',20:'bob',30:'mary',40:'jack',50:'david',}
 print(d.setdefault(20,'jim'))
 print()
