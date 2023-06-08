@@ -66,6 +66,7 @@ d=dict.fromkeys(l)
 print(d)
 print()
 
+
 # dict from tuple
 l=(10,20,30,40,50)
 d=dict.fromkeys(l)
