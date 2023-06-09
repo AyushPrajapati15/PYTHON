@@ -10,6 +10,9 @@ for key, value in student_scores.items():
     print("Key:", key)
     print("Value:", value)
     print()
+print()
+
+    
 # Python program to check if a key exists in a dictionary:
 student_scores = {
     "John": 85,
@@ -25,6 +28,9 @@ if key in student_scores:
     print("Key", key, "exists in the dictionary.")
 else:
     print("Key", key, "does not exist in the dictionary.")
+print()
+
+
 # Python program to find the maximum and minimum value in a dictionary:
 student_scores = {
     "John": 85,
@@ -39,6 +45,9 @@ min_value = min(student_scores.values())
 
 print("Maximum value:", max_value)
 print("Minimum value:", min_value)
+print()
+
+
 # Python program to count the frequency of elements in a list and store the results in a dictionary:
 numbers = [1, 2, 3, 2, 1, 3, 4, 2, 1, 5]
 frequency = {}
