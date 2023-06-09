@@ -31,6 +31,7 @@ else:
 print()
 
 
+
 # Python program to find the maximum and minimum value in a dictionary:
 student_scores = {
     "John": 85,
