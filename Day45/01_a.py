@@ -60,11 +60,17 @@ for element in numbers:
         frequency[element] = 1
 
 print("Element frequencies:", frequency)
+print()
+
+
+
 # Python program to sort a dictionary by its values:
 scores = {"John": 85, "Emily": 92, "Michael": 78, "Sarah": 95, "Daniel": 88}
 sorted_scores = dict(sorted(scores.items(), key=lambda item: item[1]))
 
 print("Sorted scores:", sorted_scores)
+print()
+
 
 # Python program to find the common keys between two dictionaries:
 dict1 = {"A": 1, "B": 2, "C": 3}
@@ -77,6 +83,9 @@ for key in dict1:
         common_keys.append(key)
 
 print("Common keys:", common_keys)
+print()
+
+
 # Python program to add a key-value pair to a dictionary:
 student_scores = {
     "John": 85,
@@ -87,6 +96,9 @@ student_scores = {
 student_scores["Sarah"] = 95
 
 print("Updated dictionary:", student_scores)
+print()
+
+
 # Python program to remove a key-value pair from a dictionary:
 student_scores = {
     "John": 85,
