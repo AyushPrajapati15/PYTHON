@@ -1,6 +1,4 @@
-Write a Python program to check if a key exists in a dictionary.
-python
-Copy code
+# Write a Python program to check if a key exists in a dictionary.
 student_scores = {
     "John": 85,
     "Emily": 92,
