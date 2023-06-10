@@ -41,7 +41,6 @@ del student_scores["Michael"]
 print("Updated dictionary:", student_scores)
 
 
-
 # Write a Python program to iterate over the keys and values of a dictionary.
 student_scores = {
     "John": 85,
@@ -55,7 +54,7 @@ for key, value in student_scores.items():
     print("Key:", key)
     print("Value:", value)
     print()
-    
+
 # Write a Python program to find the maximum and minimum value in a dictionary.
 student_scores = {
     "John": 85,
