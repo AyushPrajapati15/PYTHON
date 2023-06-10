@@ -25,6 +25,8 @@ student_scores = {
 student_scores["Sarah"] = 95
 
 print("Updated dictionary:", student_scores)
+
+
 # Write a Python program to remove a key-value pair from a dictionary.
 student_scores = {
     "John": 85,
@@ -36,6 +38,8 @@ student_scores = {
 del student_scores["Michael"]
 
 print("Updated dictionary:", student_scores)
+
+
 # Write a Python program to iterate over the keys and values of a dictionary.
 student_scores = {
     "John": 85,
