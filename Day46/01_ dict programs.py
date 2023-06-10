@@ -26,6 +26,7 @@ student_scores["Sarah"] = 95
 
 print("Updated dictionary:", student_scores)
 
+
 # Write a Python program to remove a key-value pair from a dictionary.
 student_scores = {
     "John": 85,
