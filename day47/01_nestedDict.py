@@ -68,6 +68,7 @@ for inner_list in nested_list:
     count += inner_list.count(element)
 
 print("Count of", element, ":", count)
+
 # Write a Python program to find the maximum value in a nested dictionary.
 nested_dict = {
     "person1": {"name": "John", "age": 25, "score": {"math": 80, "english": 75}},
