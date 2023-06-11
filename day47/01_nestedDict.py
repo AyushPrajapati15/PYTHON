@@ -56,6 +56,8 @@ for person, details in nested_dict.items():
     print("Age:", details["age"])
     print("City:", details["city"])
     print()
+
+
 # Write a Python program to count the occurrence of an element in a nested list.
 nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [1, 2, 3], [4, 5, 6]]
 
