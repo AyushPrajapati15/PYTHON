@@ -41,6 +41,8 @@ for inner_list in nested_list:
         print(element, end=" ")
 
     print()
+
+
 # Write a Python program to access and print values from a nested dictionary.
 nested_dict = {
     "person1": {"name": "John", "age": 25, "city": "New York"},
