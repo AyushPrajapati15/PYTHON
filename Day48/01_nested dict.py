@@ -11,6 +11,8 @@ for person, details in nested_dict.items():
         print(key + ":", value)
     print()
 print()
+
+
 # Write a Python program to find the sum of values in a nested dictionary.
 nested_dict = {
     "person1": {"math": 80, "english": 75},
@@ -26,6 +28,8 @@ for person, scores in nested_dict.items():
 
 print("Total score:", total_score)
 print()
+
+
 # Write a Python program to flatten a nested dictionary into a single-level dictionary.
 nested_dict = {
     "person1": {"name": "John", "age": 25},
@@ -41,6 +45,8 @@ for person, details in nested_dict.items():
 
 print("Flattened dictionary:", flattened_dict)
 print()
+
+
 # Write a Python program to count the occurrence of a specific value in a nested dictionary.
 nested_dict = {
     "person1": {"math": 80, "english": 75},
