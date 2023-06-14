@@ -38,10 +38,12 @@ numbers = [1, 2, 3, 4, 5]
 squared_dict = {num: num**2 for num in numbers}
 print(squared_dict)
 
+
 # Question: Create a dictionary comprehension to map each character in a string to its ASCII value.
 word = "hello"
 ascii_dict = {char: ord(char) for char in word}
 print(ascii_dict)
+
 
 # Question: Create a dictionary comprehension to count the frequency of elements in a list.
 fruits = ['apple', 'banana', 'cherry', 'apple', 'banana', 'apple']
