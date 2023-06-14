@@ -51,6 +51,7 @@ frequency_dict = {fruit: fruits.count(fruit) for fruit in fruits}
 print(frequency_dict)
 {'apple': 3, 'banana': 2, 'cherry': 1}
 
+
 # Question: Create a dictionary comprehension to filter out elements from a list that satisfy a certain condition.
 numbers = [1, 2, 3, 4, 5]
 even_dict = {num: num**2 for num in numbers if num % 2 == 0}
