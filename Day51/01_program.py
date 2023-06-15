@@ -16,6 +16,7 @@ student_data = {
         'grade': 'A'
     }
 }
+print()
 
 # Dictionary comprehension to create a new dictionary with the names of students as keys
 # and their grades as values
