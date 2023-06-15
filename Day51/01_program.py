@@ -48,6 +48,7 @@ employee_data = {
         'salary': 7000
     }
 }
+print()
 
 # Dictionary comprehension to create a new dictionary with the names of employees as keys
 # and their departments as values, for employees with age greater than 30
