@@ -23,6 +23,7 @@ grades_dict = {student_data[student]['name']: student_data[student]['grade'] for
 
 # Print the new dictionary
 print(grades_dict)
+print()
 
 
 # Nested dictionary
