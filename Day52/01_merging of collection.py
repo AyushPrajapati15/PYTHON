@@ -32,3 +32,9 @@ d={*d1,*d2} # it will only print key for values we wllhave to use double star(**
 print(d)
 d={**d1,**d2}
 print(d)
+print()
+
+dict1 = {'a': 1, 'b': 2}
+dict2 = {'c': 3, 'd': 4}
+dict1.update(dict2)
+print(dict1)
