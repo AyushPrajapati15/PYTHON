@@ -7,6 +7,7 @@ print(b)
 print(b2)
 print()
 
+
 # tuple merging
 t=(10,20,30,40,50)
 p=(100,'alice',200)
@@ -15,6 +16,7 @@ b=(*t,*p)
 print(b)
 print(b2)
 print()
+
 
 # Set merging
 s1={10,20,30,40,50}
