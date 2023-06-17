@@ -1,4 +1,5 @@
 s="Hello python"
+
 print(s.startswith("hello"))
 print(s.startswith("Hello"))
 print(s.endswith("Hello"))
