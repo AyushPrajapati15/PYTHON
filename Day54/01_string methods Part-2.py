@@ -26,8 +26,8 @@ dob = '15-1-2001'
 print(dob.split('*'))
 print()
 
-# join()
 
+# join()
 l = ['Alice', 'Bob', 'Jack', 'Mary']
 s = '+'.join(l)
 print(s)
@@ -64,6 +64,7 @@ print(len(s))
 print(len(s.rstrip()))
 print()
 
+
 #lstrip()
 s = '       Alice       '
 print(len(s))
@@ -76,6 +77,7 @@ s = '       Alice       '
 print(len(s))
 print(len(s.strip()))
 print()
+
 
 # fill char
 # zfill()
@@ -93,8 +95,8 @@ s = 'Alice'
 print(s.zfill(9))
 print()
 
-# rjust()
 
+# rjust()
 s = 'hello'
 print(s.rjust(10))
 print()
@@ -117,7 +119,6 @@ print()
 
 
 # center()
-
 s = 'Alice'
 print(s.center(20))
 print()
@@ -154,7 +155,6 @@ print()
 
 
 # isidentifier()
-
 s = '123abc'
 print(s.isidentifier())
 print()
