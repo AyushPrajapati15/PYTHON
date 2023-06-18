@@ -1,4 +1,5 @@
 # list methods part 2
+# Splitting of string
 # split()
 
 s = 'Alice  doe'
@@ -26,7 +27,7 @@ dob = '15-1-2001'
 print(dob.split('*'))
 print()
 
-
+# Joining of string
 # join()
 l = ['Alice', 'Bob', 'Jack', 'Mary']
 s = '+'.join(l)
@@ -50,6 +51,7 @@ l = ['Alice', 'Bob', 'Jack', 'Mary']
 s = ' '.join(l)
 print(s)
 print()
+
 
 l = ('Alice', 'Bob', 'Jack', 'Mary')
 s = '.'.join(l)
@@ -134,7 +136,8 @@ print(s.center(21, '*'))
 print()
 
 
-min()
+# others
+# min()
 s = 'Alice'
 print(min(s))
 print()
