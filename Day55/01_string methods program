@@ -1,0 +1,138 @@
+# String method programs
+string = input("Enter a string: ")
+
+upper_string = string.upper()
+print("Uppercase: " + upper_string)
+print()
+
+ends_with_s = upper_string.endswith('S')
+print("Ends with 's': " + ('Yes' if ends_with_s else 'No'))
+print()
+
+replaced_string = string.replace('a', '@')
+print("Replaced string: " + replaced_string)
+
+word_list = string.split()
+print("Word list: " + str(word_list))
+print()
+
+index = string.find('o')
+print("Index of 'o': " + str(index))
+print()
+
+string = input("Enter a string: ")
+
+count = string.count('a')
+print("Occurrences of 'a': " + str(count))
+print()
+
+is_alpha = string.isalpha()
+print("Only alphabetic characters: " + ('Yes' if is_alpha else 'No'))
+print()
+
+reversed_string = string[::-1]
+print("Reversed string: " + reversed_string)
+print()
+
+stripped_string = string.strip()
+print("Stripped string: " + stripped_string)
+print()
+
+is_palindrome = string == string[::-1]
+print("Palindrome: " + ('Yes' if is_palindrome else 'No'))
+print()
+
+
+string = input("Enter a string: ")
+
+word_count = len(string.split())
+print("Number of words: " + str(word_count))
+print()
+
+starts_with_hello = string.lower().startswith('hello')
+print("Starts with 'Hello': " + ('Yes' if starts_with_hello else 'No'))
+print()
+
+word_list = string.split()
+print("Word list: " + str(word_list))
+print()
+
+joined_string = ' '.join(word_list)
+print("Joined string: " + joined_string)
+print()
+
+modified_string = ' '.join(word.capitalize() for word in word_list)
+print("Modified string: " + modified_string)
+print()
+
+
+string = input("Enter a string: ")
+
+vowel_count = sum(1 for char in string.lower() if char in 'aeiou')
+print("Number of vowels: " + str(vowel_count))
+print()
+
+is_digit = string.isdigit()
+print("Only digits: " + ('Yes' if is_digit else 'No'))
+print()
+
+replaced_string = string.replace('old', 'new')
+print("Replaced string: " + replaced_string)
+print()
+
+title_case_string = string.title()
+print("Title case string: " + title_case_string)
+print()
+
+substring = 'hello'
+contains_substring = substring in string
+print("Contains substring: " + ('Yes' if contains_substring else 'No'))
+print()
+
+
+string = input("Enter a string: ")
+
+char = 'o'
+char_count = string.count(char)
+print("Occurrences of '" + char + "': " + str(char_count))
+print()
+
+is_empty = not string
+print("Empty string: " + ('Yes' if is_empty else 'No'))
+print()
+
+lowercase_string = string.lower()
+print("Lowercase string: " + lowercase_string)
+print()
+
+is_valid_email = string.count('@') == 1
+print("Valid email address: " + ('Yes' if is_valid_email else 'No'))
+print()
+
+digit_list = [char for char in string if char.isdigit()]
+print("Digits extracted: " + str(digit_list))
+print()
+
+
+string = input("Enter a string: ")
+
+starts_with_vowel = string[0].lower() in 'aeiou'
+print("Starts with a vowel: " + ('Yes' if starts_with_vowel else 'No'))
+print()
+
+
+char_list = list(string)
+print("Character list: " + str(char_list))
+print()
+
+joined_string = '_'.join(char_list)
+print("Joined string: " + joined_string)
+print()
+
+no_whitespace_string = ''.join(char for char in string if not char.isspace())
+print("String without whitespace: " + no_whitespace_string)
+print()
+
+is_alphanumeric = string.isalnum()
+print("Alphanumeric string: " + ('Yes' if is_alphanumeric else 'No'))
+print()
