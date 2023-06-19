@@ -5,9 +5,11 @@ upper_string = string.upper()
 print("Uppercase: " + upper_string)
 print()
 
+
 ends_with_s = upper_string.endswith('S')
 print("Ends with 's': " + ('Yes' if ends_with_s else 'No'))
 print()
+
 
 replaced_string = string.replace('a', '@')
 print("Replaced string: " + replaced_string)
