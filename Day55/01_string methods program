@@ -14,16 +14,17 @@ print()
 replaced_string = string.replace('a', '@')
 print("Replaced string: " + replaced_string)
 
+
 word_list = string.split()
 print("Word list: " + str(word_list))
 print()
+
 
 index = string.find('o')
 print("Index of 'o': " + str(index))
 print()
 
 string = input("Enter a string: ")
-
 count = string.count('a')
 print("Occurrences of 'a': " + str(count))
 print()
