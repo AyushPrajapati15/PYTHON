@@ -47,7 +47,6 @@ print()
 
 
 string = input("Enter a string: ")
-
 word_count = len(string.split())
 print("Number of words: " + str(word_count))
 print()
@@ -70,7 +69,6 @@ print()
 
 
 string = input("Enter a string: ")
-
 vowel_count = sum(1 for char in string.lower() if char in 'aeiou')
 print("Number of vowels: " + str(vowel_count))
 print()
@@ -94,7 +92,6 @@ print()
 
 
 string = input("Enter a string: ")
-
 char = 'o'
 char_count = string.count(char)
 print("Occurrences of '" + char + "': " + str(char_count))
@@ -118,7 +115,6 @@ print()
 
 
 string = input("Enter a string: ")
-
 starts_with_vowel = string[0].lower() in 'aeiou'
 print("Starts with a vowel: " + ('Yes' if starts_with_vowel else 'No'))
 print()
