@@ -32,6 +32,7 @@ if e % 2 == 0:
 else:
     print('odd')
 
+
 # Check the number is even or odd 
 def evenodd(num):
     if num%2==0:

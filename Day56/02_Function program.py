@@ -5,9 +5,10 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
-number = int(input("Enter a number: "))
+number = int(input("Enter a number to calculate factorial: "))
 result = factorial(number)
 print("Factorial of", number, "is", result)
+print()
 
 
 
@@ -20,20 +21,24 @@ def is_prime(n):
             return False
     return True
 
-number = int(input("Enter a number: "))
+number = int(input("Enter a number to check prime: "))
 if is_prime(number):
     print(number, "is prime.")
 else:
     print(number, "is not prime.")
+    print()
+
 
 
 # Program 3: Reverse a String
 def reverse_string(string):
     return string[::-1]
 
-input_string = input("Enter a string: ")
+input_string = input("Enter a string to reverse: ")
 reversed_string = reverse_string(input_string)
 print("Reversed string:", reversed_string)
+print()
+
 
 
 # Program 4: Calculate the Sum of Digits in a Number
@@ -45,6 +50,6 @@ def sum_of_digits(n):
         n //= 10
     return total
 
-number = int(input("Enter a number: "))
+number = int(input("Enter a number to calculate the sum: "))
 result = sum_of_digits(number)
 print("Sum of digits in", number, "is", result)
