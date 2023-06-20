@@ -35,6 +35,7 @@ input_string = input("Enter a string: ")
 reversed_string = reverse_string(input_string)
 print("Reversed string:", reversed_string)
 
+
 # Program 4: Calculate the Sum of Digits in a Number
 def sum_of_digits(n):
     total = 0
