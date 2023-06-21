@@ -8,6 +8,7 @@ def is_palindrome(string):
 
 print(is_palindrome("level"))  # Output: True
 print(is_palindrome("python"))  # Output: False
+print()
 
 
 # Write a Python function to find the maximum element in a list:
@@ -22,6 +23,7 @@ def find_max_element(lst):
         return max_element
 print(find_max_element([2, 5, 1, 9, 4]))  # Output: 9
 print(find_max_element([10, 3, 8, 6]))  # Output: 10
+print()
 
 
 # Write a Python function to count the occurrence of a specific element in a list:
@@ -33,14 +35,17 @@ def count_occurrence(lst, element):
     return count
 print(count_occurrence([1, 2, 3, 4, 2, 2], 2))  # Output: 3
 print(count_occurrence(["apple", "banana", "apple", "orange"], "apple"))  # Output: 2
+print()
 
 
 # Write a Python function to calculate the area of a circle given its radius:
 def calculate_circle_area(radius):
-    area = math.pi * radius**2
+    pi=3.14
+    area = pi * radius**2
     return area
 print(calculate_circle_area(5))  # Output: 78.53981633974483
 print(calculate_circle_area(2.5))  # Output: 19.634954084936208
+print()
 
 
 
