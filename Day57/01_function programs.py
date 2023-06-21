@@ -20,8 +20,6 @@ def find_max_element(lst):
             if element > max_element:
                 max_element = element
         return max_element
-
-# Test the function
 print(find_max_element([2, 5, 1, 9, 4]))  # Output: 9
 print(find_max_element([10, 3, 8, 6]))  # Output: 10
 
