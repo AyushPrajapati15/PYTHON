@@ -6,7 +6,6 @@ def is_palindrome(string):
     else:
         return False
 
-# Test the function
 print(is_palindrome("level"))  # Output: True
 print(is_palindrome("python"))  # Output: False
 
