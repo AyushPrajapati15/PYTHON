@@ -31,8 +31,6 @@ def count_occurrence(lst, element):
         if item == element:
             count += 1
     return count
-
-# Test the function
 print(count_occurrence([1, 2, 3, 4, 2, 2], 2))  # Output: 3
 print(count_occurrence(["apple", "banana", "apple", "orange"], "apple"))  # Output: 2
 
