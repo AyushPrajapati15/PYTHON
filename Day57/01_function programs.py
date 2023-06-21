@@ -36,13 +36,9 @@ print(count_occurrence(["apple", "banana", "apple", "orange"], "apple"))  # Outp
 
 
 # Write a Python function to calculate the area of a circle given its radius:
-import math
-
 def calculate_circle_area(radius):
     area = math.pi * radius**2
     return area
-
-# Test the function
 print(calculate_circle_area(5))  # Output: 78.53981633974483
 print(calculate_circle_area(2.5))  # Output: 19.634954084936208
 
@@ -54,8 +50,6 @@ def find_sum(lst):
     for num in lst:
         sum += num
     return sum
-
-# Test the function
 print(find_sum([1, 2, 3, 4, 5]))  # Output: 15
 print(find_sum([-1, 0, 1]))  # Output: 0
 
