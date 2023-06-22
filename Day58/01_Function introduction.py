@@ -21,7 +21,6 @@ print()
 def add(a, b, c):
     print(a+b+c)
 
-
 add(10, 20, 30)
 add(11,12,13)
 print()
@@ -42,7 +41,6 @@ def add(a, b, c):
     print(id(c))
     print(a, b, c)
 
-
 a, b, c = 10, 20, 30
 add(a, b, c)
 print()
@@ -60,7 +58,6 @@ def add(x, y, z):
     print(id(y))
     print(id(z))
     print(x, y, z)
-
 
 a, b, c = 10, 20, 30
 add(a, b, c)
@@ -82,8 +79,6 @@ def add(x, y, z):
     print(id(y))
     print(id(z))
     print(x, y, z)
-
-
 
 a, b, c = 10, 20, 30
 add(a, b, c)
