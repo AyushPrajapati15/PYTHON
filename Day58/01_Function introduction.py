@@ -5,10 +5,8 @@ def add(a, b, c):
     '''This function is used to perform addition of three numbers'''
     print(a+b+c)
 
-
 add(10, 20, 30)
 add(11,12,13)
-
 
 add(10, 20, 30)
 add(11, 12, 13)
@@ -55,7 +53,6 @@ print(id(b))
 print(id(c))
 print(a, b, c)
 print()
-
 
 def add(x, y, z):
     print('Inside function')
