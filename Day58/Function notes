@@ -7,9 +7,7 @@
 
 <!-- Advantages -->
 • Code reusability
-
 • Improve 
-
 
 If we will not use function it means same code we will copy and paste multiple times
 
@@ -22,8 +20,10 @@ If we will not use function it means same code we will copy and paste multiple t
 <!-- Build in function -->
 Those function which is already created by python people such type of function is called as Build in function.
 It is just like ready-to-use
+
 Ex: print(), input(), min(), max(), int(), eval(), type(), Id() etc.
 
 <!-- User Defined function -->
 . Those function which is defined by the user as per programmer requirement such type of function is called as user defined function.
+
 Ex: evenodd(), check(), display(), msg(), wish()
