@@ -3,7 +3,6 @@ def fun(a):
     print('inside fun ', id(a))
     print()
 
-
 a = 23
 print('outside fun', a)
 fun(a)
