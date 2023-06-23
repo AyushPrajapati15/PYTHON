@@ -55,7 +55,6 @@ def fun(l):
     print('inside fun ', id(l))
     print()
 
-
 l = [23, 33, 43]
 print('outside fun ', l)
 print('outside fun ', id(l))
