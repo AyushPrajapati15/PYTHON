@@ -34,7 +34,6 @@ def fun(a):
     print('inside fun after modification  : ', id(a))
     print()
 
-
 a = 23
 print('outside fun before calling  : ', a)
 print('outside fun before calling: ', id(a))
