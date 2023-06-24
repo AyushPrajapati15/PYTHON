@@ -21,6 +21,7 @@ update_list(my_list)
 print("After the function call:", my_list)
 print()
 
+
 # Write a Python program to swap two numbers using call by value.
 def swap_numbers(a, b):
     temp = a
@@ -35,6 +36,7 @@ swap_numbers(num1, num2)
 print("After the function call: num1 =", num1, "num2 =", num2)
 print()
 
+
 # Write a Python program to modify a list inside a function using call by value.
 def modify_list(my_list):
     my_list.append(4)
@@ -47,6 +49,7 @@ modify_list(my_list)
 print("After the function call:", my_list)
 print()
 
+
 # Write a Python program to demonstrate call by value for string data type.
 def modify_string(text):
     text += " World"
@@ -57,6 +60,7 @@ print("Before the function call:", message)
 modify_string(message)
 print("After the function call:", message)
 print()
+
 
 # Write a Python program to pass a dictionary to a function and modify its values.
 def modify_dict(data):
@@ -70,6 +74,7 @@ modify_dict(person)
 print("After the function call:", person)
 print()
 
+
 # Write a Python program to pass a list to a function and modify its elements.
 def modify_list_elements(my_list):
     for i in range(len(my_list)):
@@ -81,6 +86,7 @@ print("Before the function call:", numbers)
 modify_list_elements(numbers)
 print("After the function call:", numbers)
 print()
+
 
 # Write a Python program to demonstrate call by value for tuple data type.
 def modify_tuple(my_tuple):
