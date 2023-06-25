@@ -7,6 +7,7 @@ y = 20
 print("Before swapping:", x, y)
 swap_variables(x, y)
 print("After swapping:", x, y)
+print()
 
 
 # Write a Python program to concatenate two strings using object references.
@@ -18,6 +19,7 @@ str2 = "World!"
 print("Before concatenation:", str1, str2)
 concatenate_strings(str1, str2)
 print("After concatenation:", str1, str2)
+print()
 
 
 # Write a Python program to modify a list element using object references.
@@ -28,6 +30,7 @@ items = ["Apple", "Banana", "Orange"]
 print("Before modification:", items)
 modify_list_element(items)
 print("After modification:", items)
+print()
 
 
 # Write a Python program to modify a dictionary value using object references.
@@ -38,6 +41,7 @@ person = {"name": "Alice", "age": 25}
 print("Before modification:", person)
 modify_dictionary_value(person)
 print("After modification:", person)
+print()
 
 
 # Write a Python program to modify a class attribute using object references.
