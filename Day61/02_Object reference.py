@@ -19,6 +19,7 @@ print("Before concatenation:", str1, str2)
 concatenate_strings(str1, str2)
 print("After concatenation:", str1, str2)
 
+
 # Write a Python program to modify a list element using object references.
 def modify_list_element(my_list):
     my_list[0] = "Modified"
@@ -28,6 +29,7 @@ print("Before modification:", items)
 modify_list_element(items)
 print("After modification:", items)
 
+
 # Write a Python program to modify a dictionary value using object references.
 def modify_dictionary_value(data):
     data["name"] = "John"
@@ -36,6 +38,7 @@ person = {"name": "Alice", "age": 25}
 print("Before modification:", person)
 modify_dictionary_value(person)
 print("After modification:", person)
+
 
 # Write a Python program to modify a class attribute using object references.
 class Car:
