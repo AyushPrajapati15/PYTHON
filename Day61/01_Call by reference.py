@@ -6,6 +6,7 @@ my_list = [1, 2, 3, 4, 5]
 print("Before swap:", my_list)
 swap_elements(my_list, 1, 3)
 print("After swap:", my_list)
+print()
 
 
 # Write a Python program to modify the values of a dictionary using call by reference.
@@ -17,6 +18,7 @@ person = {"name": "Alice", "age": 25}
 print("Before modification:", person)
 modify_dictionary(person)
 print("After modification:", person)
+print()
 
 
 # Write a Python program to append elements to a list using call by reference.
@@ -27,6 +29,7 @@ numbers = [1, 2, 3]
 print("Before appending:", numbers)
 append_to_list(numbers, [4, 5, 6])
 print("After appending:", numbers)
+print()
 
 
 # Write a Python program to update a dictionary using call by reference.
@@ -37,6 +40,7 @@ person = {"name": "Alice", "age": 25}
 print("Before updating:", person)
 update_dictionary(person, {"city": "New York", "occupation": "Engineer"})
 print("After updating:", person)
+print()
 
 
 # Write a Python program to clear a list using call by reference.
@@ -47,6 +51,7 @@ numbers = [1, 2, 3, 4, 5]
 print("Before clearing:", numbers)
 clear_list(numbers)
 print("After clearing:", numbers)
+print()
 
 
 # Write a Python program to reverse a string using call by reference.
