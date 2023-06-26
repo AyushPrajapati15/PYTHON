@@ -26,14 +26,12 @@ def fun():
     l = [10, 20, 30]
     return l
 
-
 print(fun())
 
 
 def fun():
     l = [10, 20, 30]
     return l
-
 
 x = fun()
 print(x)
