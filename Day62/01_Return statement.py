@@ -35,7 +35,6 @@ def fun():
 
 x = fun()
 print(x)
-
 for i in x:
     print(i)
 
@@ -44,10 +43,8 @@ def fun():
     t = (10, 20, 30)
     return t
 
-
 x = fun()
 print(x)
-
 for i in x:
     print(i)
 
