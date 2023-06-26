@@ -77,13 +77,11 @@ fun()
 def fun(a, b, c):
     return a, b, c
 
-
 print(fun(10, 11, 12))
 
 
 def fun(a, b, c):
     return a*2, b*3, c*4
-
 
 t = fun(10, 11, 12)
 print(t)
@@ -91,7 +89,6 @@ print(t)
 
 def fun(a, b, c):
     return a*2, b*3, c*4
-
 
 x,y,z = fun(10, 11, 12)
 print(x,y,z)
