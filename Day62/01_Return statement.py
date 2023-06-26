@@ -55,11 +55,10 @@ def fun():
 
 print(fun())
 
-
+# return statement should be in function definition
 # def fun():
 #     print('hello')
 #     return 10
-
 
 # print(fun())
 # return 20
@@ -71,12 +70,10 @@ def fun():
     print('good night')
     return 10
 
-
-# fun()
+fun()
 
 
 # python function can return multiple value
-
 def fun(a, b, c):
     return a, b, c
 
