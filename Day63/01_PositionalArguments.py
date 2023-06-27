@@ -3,6 +3,7 @@ def fun(a, b, c):
 
 
 fun(10, 20, 30)
+print()
 # fun(10, 20)  # fun() missing 1 required positional argument: 'c'
 
 # fun(10)  # fun() missing 2 required positional arguments: 'b' and 'c
@@ -19,7 +20,7 @@ fun((), [], {})
 
 def fun():
     print('hello python ! how r u ?')
-
+print()
 
 fun()
 # fun(10)  # TypeError: fun() takes 0 positional arguments but 1 was given
