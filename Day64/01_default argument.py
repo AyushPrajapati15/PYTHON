@@ -4,19 +4,21 @@ def fun(name):
 fun('Alice')
 print()
 
+
 def fun(name):
     print(f'hi {name} good morning')
 print()
 
 # fun()
 
-# default argumnet
 
+# default argumnet
 def fun(name='Jack'):
     print(f'hi {name} good morning')
 
 fun()
 print()
+
 
 def fun(name='Jack'):
     print(f'hi {name} good morning')
@@ -40,6 +42,7 @@ def msg(a='Alice', b='How are you'):
 msg('bob', 'alice')
 msg('jerry')
 print()
+
 
 def msg(a='Alice', b='How are you'):
     print(f'hi {a}  {b}')
@@ -66,6 +69,7 @@ def student(name, id, mark, email='no'):
 student('Alice', 123, 25)
 print()
 
+
 def student(name, id, mark, email='no'):
     print('name is  ', name)
     print('id  is ', id)
@@ -74,6 +78,7 @@ def student(name, id, mark, email='no'):
 
 student('Alice', 123, 25, 'Alice@gmail.com')
 print()
+
 
 def student(name, id, mark, email='no', addr='no'):
     print('name is  ', name)
@@ -84,6 +89,7 @@ def student(name, id, mark, email='no', addr='no'):
 
 student('Alice', 123, 25, 'Alice@gmail.com')
 print()
+
 
 def student(name, id, mark, email='no', addr='no'):
     print('name is  ', name)
