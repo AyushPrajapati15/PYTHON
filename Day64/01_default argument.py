@@ -27,6 +27,7 @@ fun('Alice')
 print()
 
 
+
 # postional and default argument
 def msg(a, b='hello'):
     print(f'hi {a}  {b}')
