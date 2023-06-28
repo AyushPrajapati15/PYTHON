@@ -1,13 +1,12 @@
 def fun(name):
     print(f'hi {name} good morning')
 
-
 fun('Alice')
-
+print()
 
 def fun(name):
     print(f'hi {name} good morning')
-
+print()
 
 # fun()
 
@@ -16,15 +15,15 @@ def fun(name):
 def fun(name='Jack'):
     print(f'hi {name} good morning')
 
-
 fun()
-
+print()
 
 def fun(name='Jack'):
     print(f'hi {name} good morning')
 
-
 fun('Alice')
+print()
+
 
 # postional and default argument
 def msg(a, b='hello'):
@@ -32,7 +31,7 @@ def msg(a, b='hello'):
 
 msg('Bob', 'mary')
 msg('Alice')
-
+print()
 
 
 def msg(a='Alice', b='How are you'):
@@ -40,15 +39,14 @@ def msg(a='Alice', b='How are you'):
 
 msg('bob', 'alice')
 msg('jerry')
-
+print()
 
 def msg(a='Alice', b='How are you'):
     print(f'hi {a}  {b}')
 
-
-# msg('rahul', 'zini')
+msg('Bob', 'alice')
 msg(a='bob', b='jack')
-
+print()
 # def student(name,id,email='no',mark):
 #     print('name is  ',name)
 #     print('id  is ',id)
@@ -66,7 +64,7 @@ def student(name, id, mark, email='no'):
     print('mark  is ', mark)
 
 student('Alice', 123, 25)
-
+print()
 
 def student(name, id, mark, email='no'):
     print('name is  ', name)
@@ -75,7 +73,7 @@ def student(name, id, mark, email='no'):
     print('mark  is ', mark)
 
 student('Alice', 123, 25, 'Alice@gmail.com')
-
+print()
 
 def student(name, id, mark, email='no', addr='no'):
     print('name is  ', name)
@@ -83,10 +81,9 @@ def student(name, id, mark, email='no', addr='no'):
     print('email  is ', email)
     print('mark  is ', mark)
     print('addr is ', addr)
-
 
 student('Alice', 123, 25, 'Alice@gmail.com')
-
+print()
 
 def student(name, id, mark, email='no', addr='no'):
     print('name is  ', name)
@@ -94,6 +91,5 @@ def student(name, id, mark, email='no', addr='no'):
     print('email  is ', email)
     print('mark  is ', mark)
     print('addr is ', addr)
-
 
 student('Alice', 123, 25, addr='Bhubaneswar')
