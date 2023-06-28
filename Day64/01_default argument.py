@@ -56,7 +56,6 @@ print()
 #     print('email  is ', email)
 #     print('mark  is ', mark)
 
-
 # student('Alice',123,25)
 
 
