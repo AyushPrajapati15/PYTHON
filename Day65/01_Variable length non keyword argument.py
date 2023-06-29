@@ -5,10 +5,9 @@ def fun(a, b, c, d, e):
     print(a, b, c, d, e)
 
 fun(10, 20, 30, 40, 50, 60, 90, 89, 78)
-
+print()
 
 # solution
-
 def fun(*a):
     # print(type(a))
     print(a)
@@ -18,23 +17,23 @@ fun(10, 20, 30)
 fun(10, 20, 77, 89, 67)
 fun(10)
 fun()
-
+print()
 
 def fun(*args):
     print(args)
 
 fun(10, 20, 33, 56)
-
+print()
 
 def fun(*args):
     print(args)
 
 fun(10, 20, 33, 56, [88, 89, 78],
     (10, 20, 33, 41, 23, 11, 67), True, False, 10+20j)
+print()
 
 
 # variable length keyword argument + positional argumnet
-
 def fun(x, *a):
     print('x is :', x)
     print('a is :', a)
