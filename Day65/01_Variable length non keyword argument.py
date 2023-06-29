@@ -46,7 +46,6 @@ def fun(*a, x):
     print('x is :', x)
     print('a is :', a)
 
-
 fun(10, 20, 30, 40)
 
 
@@ -55,14 +54,12 @@ def fun(*a, x):
     print('x is :', x)
     print('a is :', a)
 
-
 fun(10, 20, 30, x=40)
 
 
 def fun(*a, x):
     print('x is :', x)
     print('a is :', a)
-
 
 # fun(x=40,10, 20, 30)
 fun(10,20,30,4,50,x=55)
@@ -72,7 +69,6 @@ def fun(x, *a):
     print('x is :', x)
     print('a is :', a)
 
-
 fun(10, 20, 30, x=40)
 
 
@@ -80,20 +76,17 @@ def fun(*a, x):
     print('x is :', x)
     print('a is :', a)
 
-
 fun(10, 20, 30, x=40)
 
 
 def fun(*a, x):
     print('x is :', x)
     print('a is :', a)
-
 
 fun(10,20,x=40)
 
 
 # deafult argument + variable length argumnet
-
 def fun(*a,x=10):
     print('a is ',a)
     print('x is ',x)
@@ -105,7 +98,6 @@ def fun(*a, x=10):
     print('a is ', a)
     print('x is ', x)
 
-
 fun(99, 123, 44, 12, 78, 900, x=789)
 
 
@@ -113,14 +105,12 @@ def fun(x=10, *a):
     print('a is ', a)
     print('x is ', x)
 
-
 fun(99, 123, 44, 12, 78, 900, x=789)
 
 
 def fun(x=10, *a):
     print('a is ', a)
     print('x is ', x)
-
 
 fun(99, 123, 44, 12, 78, 900)
 
@@ -128,20 +118,16 @@ fun(99, 123, 44, 12, 78, 900)
 def fun(x=10, *a):
     print('a is ', a)
     print('x is ', x)
-
 
 fun(99, 123, 44, 12, 78, 900)
 
 
 # keyword argument + positional argumnet + varible length argumnet
-
-
 def fun(a, b, *n, x=10):
     print(a)
     print(b)
     print(n)
     print(x)
-
 
 fun(10, 20)
 
@@ -152,7 +138,6 @@ def fun(a, b, *n, x=10):
     print(n)
     print(x)
 
-
 fun(10, 20, 30, 40, 50, x=999)
 
 
@@ -162,7 +147,6 @@ def fun(a, b, x=10, *n):
     print(n)
     print(x)
 
-
 fun(10, 20, 30, 40, 50, x=999)
 
 
@@ -171,7 +155,6 @@ def fun(a, b, x=10, *n):
     print(b)
     print(n)
     print(x)
-
 
 fun(10, 20, 30, 40, 50)
 
@@ -182,8 +165,6 @@ def fun(a, b, x=10, *n):
     print(n)
     print(x)
 
-
 # fun(10, 20, x=30, 40, 50)
-
 fun(10,20,30,40,50,60,x=55)
 
