@@ -4,7 +4,7 @@
 def fun(a, b, c, d, e):
     print(a, b, c, d, e)
 
-fun(10, 20, 30, 40, 50, 60, 90, 89, 78)
+fun(10, 20, 30, 40, 50)
 print()
 
 # solution
@@ -46,7 +46,8 @@ def fun(*a, x):
     print('x is :', x)
     print('a is :', a)
 
-fun(10, 20, 30, 40)
+# fun(10, 20, 30, 40)
+fun(10, 20, 30, 40,x=55)
 print()
 
 
@@ -72,7 +73,8 @@ def fun(x, *a):
     print('x is :', x)
     print('a is :', a)
 
-fun(10, 20, 30, x=40)
+# fun(10, 20, 30, x=40)
+fun(10, 20, 30)
 print()
 
 
@@ -113,7 +115,9 @@ def fun(x=10, *a):
     print('a is ', a)
     print('x is ', x)
 
-fun(99, 123, 44, 12, 78, 900, x=789)
+# fun(99, 123, 44, 12, 78, 900, x=789)
+fun(99, 123, 44, 12, 78, 900)
+print()
 
 
 def fun(x=10, *a):
@@ -121,6 +125,7 @@ def fun(x=10, *a):
     print('x is ', x)
 
 fun(99, 123, 44, 12, 78, 900)
+print()
 
 
 def fun(x=10, *a):
@@ -128,6 +133,7 @@ def fun(x=10, *a):
     print('x is ', x)
 
 fun(99, 123, 44, 12, 78, 900)
+print()
 
 
 # keyword argument + positional argumnet + varible length argumnet
@@ -138,6 +144,7 @@ def fun(a, b, *n, x=10):
     print(x)
 
 fun(10, 20)
+print()
 
 
 def fun(a, b, *n, x=10):
@@ -147,6 +154,7 @@ def fun(a, b, *n, x=10):
     print(x)
 
 fun(10, 20, 30, 40, 50, x=999)
+print()
 
 
 def fun(a, b, x=10, *n):
@@ -155,7 +163,9 @@ def fun(a, b, x=10, *n):
     print(n)
     print(x)
 
-fun(10, 20, 30, 40, 50, x=999)
+# fun(10, 20, 30, 40, 50, x=999)
+fun(10, 20, 30, 40, 50)
+print()
 
 
 def fun(a, b, x=10, *n):
@@ -165,6 +175,7 @@ def fun(a, b, x=10, *n):
     print(x)
 
 fun(10, 20, 30, 40, 50)
+print()
 
 
 def fun(a, b, x=10, *n):
@@ -174,5 +185,5 @@ def fun(a, b, x=10, *n):
     print(x)
 
 # fun(10, 20, x=30, 40, 50)
-fun(10,20,30,40,50,60,x=55)
+fun(10,20,30,40,50,60)
 
