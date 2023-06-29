@@ -4,7 +4,6 @@
 def fun(a, b, c, d, e):
     print(a, b, c, d, e)
 
-
 fun(10, 20, 30, 40, 50, 60, 90, 89, 78)
 
 
@@ -13,7 +12,6 @@ fun(10, 20, 30, 40, 50, 60, 90, 89, 78)
 def fun(*a):
     # print(type(a))
     print(a)
-
 
 fun(10, 20)
 fun(10, 20, 30)
@@ -25,13 +23,11 @@ fun()
 def fun(*args):
     print(args)
 
-
 fun(10, 20, 33, 56)
 
 
 def fun(*args):
     print(args)
-
 
 fun(10, 20, 33, 56, [88, 89, 78],
     (10, 20, 33, 41, 23, 11, 67), True, False, 10+20j)
@@ -42,7 +38,6 @@ fun(10, 20, 33, 56, [88, 89, 78],
 def fun(x, *a):
     print('x is :', x)
     print('a is :', a)
-
 
 fun(10, 20, 30, 40)
 
