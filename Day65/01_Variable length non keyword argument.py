@@ -39,6 +39,7 @@ def fun(x, *a):
     print('a is :', a)
 
 fun(10, 20, 30, 40)
+print()
 
 
 def fun(*a, x):
@@ -46,6 +47,7 @@ def fun(*a, x):
     print('a is :', a)
 
 fun(10, 20, 30, 40)
+print()
 
 
 # missing 1 required keyword-only argument: 'x'
@@ -54,6 +56,7 @@ def fun(*a, x):
     print('a is :', a)
 
 fun(10, 20, 30, x=40)
+print()
 
 
 def fun(*a, x):
@@ -62,6 +65,7 @@ def fun(*a, x):
 
 # fun(x=40,10, 20, 30)
 fun(10,20,30,4,50,x=55)
+print()
 
 
 def fun(x, *a):
@@ -69,6 +73,7 @@ def fun(x, *a):
     print('a is :', a)
 
 fun(10, 20, 30, x=40)
+print()
 
 
 def fun(*a, x):
@@ -76,6 +81,7 @@ def fun(*a, x):
     print('a is :', a)
 
 fun(10, 20, 30, x=40)
+print()
 
 
 def fun(*a, x):
@@ -83,6 +89,7 @@ def fun(*a, x):
     print('a is :', a)
 
 fun(10,20,x=40)
+print()
 
 
 # deafult argument + variable length argumnet
@@ -91,6 +98,7 @@ def fun(*a,x=10):
     print('x is ',x)
 
 fun(99)
+print()
 
 
 def fun(*a, x=10):
@@ -98,6 +106,7 @@ def fun(*a, x=10):
     print('x is ', x)
 
 fun(99, 123, 44, 12, 78, 900, x=789)
+print()
 
 
 def fun(x=10, *a):
