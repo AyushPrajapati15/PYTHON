@@ -1,5 +1,4 @@
 # variable length keyword argument
-
 def fun(**a):
     print(a)
 
