@@ -5,11 +5,13 @@ def fun(**a):
 fun(x=10, y=20, z=[10, 20, 30])
 print()
 
+
 def fun(**a):
     print(a)
 
 fun(x=10, y=20, z=[10, 20, 30], z1={1: 2, 2: 3, 3: 4})
 print()
+
 
 def fun(x, **a):
     print(a)
@@ -19,12 +21,14 @@ fun(x=99, a=10, b=20, c=30)
 fun(a=10, b=20, c=30,x=99)
 print()
 
+
 def fun(x, **a):
     print(a)
     print(x)
 
 fun(a=10, b=20, c=30, x=99)
 print()
+
 
 def fun(x, *z, ** a):
     print(a)
@@ -34,6 +38,7 @@ def fun(x, *z, ** a):
 fun(99, a=10, b=20, c=30)
 print()
 
+
 def fun(x, *z, ** a):
     print(a)
     print(x)
@@ -41,6 +46,7 @@ def fun(x, *z, ** a):
 
 fun(99, 88, 67, a=10, b=20, c=30)
 print()
+
 
 # def fun(x, **a, *z):
 #     print(a)
@@ -50,16 +56,20 @@ print()
 # fun(99, 88, 67, a=10, b=20, c=30)
 print()
 
+
 def fun(**a):
     print(a)
 
 fun()
 print()
+
+
 def fun(**a):
     print(a)
 
 fun(a={})
 print()
+
 
 def fun(*a, **b):
     print(a)
@@ -67,6 +77,7 @@ def fun(*a, **b):
 
 fun()
 print()
+
 
 def fun(*a, **b):
     print(a)
