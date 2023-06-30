@@ -42,12 +42,12 @@ def fun(x, *z, ** a):
 fun(99, 88, 67, a=10, b=20, c=30)
 
 
-def fun(x, **a, *z):
-    print(a)
-    print(x)
-    print(z)
+# def fun(x, **a, *z):
+#     print(a)
+#     print(x)
+#     print(z)
 
-fun(99, 88, 67, a=10, b=20, c=30)
+# fun(99, 88, 67, a=10, b=20, c=30)
 
 
 def fun(**a):
