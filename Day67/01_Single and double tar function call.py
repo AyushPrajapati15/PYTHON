@@ -9,6 +9,7 @@ def fun(a, x, y, z):
 fun(10, 20, 30, 40)
 print()
 
+
 def fun(a, x, y, z):
     print(a)
     print(x)
@@ -18,6 +19,7 @@ def fun(a, x, y, z):
 l = [10, 20, 30, 40]
 fun(*l)
 print()
+
 
 def fun(a, x, y, z):
     print(a)
@@ -30,6 +32,7 @@ l = [10, 20, 30]
 fun(55,*l)
 print()
 
+
 def fun(a, x, y, z):
     print(a)
     print(x)
@@ -40,6 +43,7 @@ l = [10, 20, 30]
 fun(*l, 777)
 print()
 
+
 def fun(a, x, y, z):
     print(a)
     print(x)
@@ -49,6 +53,7 @@ def fun(a, x, y, z):
 l = [10, 20, 30]
 fun(777, *l)
 print()
+
 
 def fun(a, x, y, z):
     print(a)
@@ -61,6 +66,7 @@ l = [10, 20]
 fun(777, *l,55)
 print()
 
+
 def fun(a, x, y, z):
     print(a)
     print(x)
@@ -70,6 +76,7 @@ def fun(a, x, y, z):
 l = [10, 20]
 fun(777, 888, *l)
 print()
+
 
 def fun(a, x, y, z):
     print(a)
@@ -82,6 +89,7 @@ l = [10, 20, 30]
 fun(12,*l)
 print()
 
+
 def fun(a, x, y, z):
     print(a)
     print(x)
@@ -91,6 +99,7 @@ def fun(a, x, y, z):
 t = (10, 20, 30, 40)
 fun(*t)
 print()
+
 
 def fun(a, x, y, z):
     print(a)
@@ -102,6 +111,7 @@ s = {10, 20, 30, 40}
 fun(*s)
 print()
 
+
 # ** in function call
 def fun(a, **s):
     print(a)
@@ -110,6 +120,7 @@ def fun(a, **s):
 fun(10, i=100)
 print()
 
+
 def fun(a, **s):
     print(a)
     print(s)
@@ -117,6 +128,7 @@ def fun(a, **s):
 d = {'i': 100, 'j': 200, 'k': 300}
 fun(10, **d)
 print()
+
 
 def fun(a, **s):
     print(a)
