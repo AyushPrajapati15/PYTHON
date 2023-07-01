@@ -6,7 +6,6 @@ def fun(a, x, y, z):
     print(y)
     print(z)
 
-
 fun(10, 20, 30, 40)
 
 
@@ -16,9 +15,7 @@ def fun(a, x, y, z):
     print(y)
     print(z)
 
-
 l = [10, 20, 30, 40]
-
 fun(*l)
 
 
@@ -28,9 +25,7 @@ def fun(a, x, y, z):
     print(y)
     print(z)
 
-
 l = [10, 20, 30]
-
 # fun(*l)
 fun(55,*l)
 
@@ -41,9 +36,7 @@ def fun(a, x, y, z):
     print(y)
     print(z)
 
-
 l = [10, 20, 30]
-
 fun(*l, 777)
 
 
@@ -53,9 +46,7 @@ def fun(a, x, y, z):
     print(y)
     print(z)
 
-
 l = [10, 20, 30]
-
 fun(777, *l)
 
 
@@ -65,9 +56,7 @@ def fun(a, x, y, z):
     print(y)
     print(z)
 
-
 l = [10, 20]
-
 # fun(777, *l)
 fun(777, *l,55)
 
@@ -78,9 +67,7 @@ def fun(a, x, y, z):
     print(y)
     print(z)
 
-
 l = [10, 20]
-
 fun(777, 888, *l)
 
 
@@ -90,9 +77,7 @@ def fun(a, x, y, z):
     print(y)
     print(z)
 
-
 l = [10, 20, 30]
-
 # fun(777, 888, *l)
 fun(12,*l)
 
@@ -103,9 +88,7 @@ def fun(a, x, y, z):
     print(y)
     print(z)
 
-
 t = (10, 20, 30, 40)
-
 fun(*t)
 
 
@@ -115,9 +98,7 @@ def fun(a, x, y, z):
     print(y)
     print(z)
 
-
 s = {10, 20, 30, 40}
-
 fun(*s)
 
 
@@ -127,14 +108,12 @@ def fun(a, **s):
     print(a)
     print(s)
 
-
 fun(10, i=100)
 
 
 def fun(a, **s):
     print(a)
     print(s)
-
 
 d = {'i': 100, 'j': 200, 'k': 300}
 fun(10, **d)
@@ -143,7 +122,6 @@ fun(10, **d)
 def fun(a, **s):
     print(a)
     print(s)
-
 
 d = {'i': 100, 'j': 200, 'k': 300}
 fun(10, i=100,j=200,k=300)
