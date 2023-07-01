@@ -103,7 +103,6 @@ fun(*s)
 
 
 # ** in function call
-
 def fun(a, **s):
     print(a)
     print(s)
