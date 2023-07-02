@@ -1,5 +1,4 @@
 # Local variables
-
 def fun1():
     a = 23  # local variable
     print(a)
@@ -8,13 +7,11 @@ def fun1():
 def fun2():
     print(a)
 
-
 fun1()
 fun2()
-
+print()
 
 # Global Variables
-
 a = 23  # global variable
 
 def fun():
@@ -25,7 +22,7 @@ def fun2():
 
 fun()
 fun2()
-
+print()
 
 a = 23  # global variable
 
