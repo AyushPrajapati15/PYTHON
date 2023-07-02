@@ -38,10 +38,10 @@ print()
 
 
 # program to concatenate a global string variable with a local string variable inside a function and print the result.
-name = "John"
+name = "Steve"
 
 def add_surname():
-    surname = "Doe"
+    surname = "Buns"
     full_name = name + " " + surname
     print("Full Name:", full_name)
 
