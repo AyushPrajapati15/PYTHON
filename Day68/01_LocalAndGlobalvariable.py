@@ -4,12 +4,12 @@ def fun1():
     print(a)
 
 
-def fun2():
-    print(a)
+# def fun2():
+#     print(a)
 
-fun1()
-fun2()
-print()
+# fun1()
+# fun2()
+# print()
 
 # Global Variables
 a = 23  # global variable
