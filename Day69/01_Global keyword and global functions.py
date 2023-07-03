@@ -6,8 +6,11 @@ def fun():
     a = 23
     print(a)
 
+
+
 def fun2():
     print(a)
+    
 fun()
 fun2()
 
@@ -23,7 +26,6 @@ def fun():
 def fun2():
     print(a)
     # print(b)
-
 
 fun()
 fun2()
