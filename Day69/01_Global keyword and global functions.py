@@ -70,30 +70,24 @@ print(a)
 
 
 # globals()
-
 a = 23
-
 
 def fun():
     a = 999
     print(a)
     print(globals()['a'])
 
-
 fun()
-
 
 globals()
 
 a = 23
-
 
 def fun():
     a = 999
     print(a)
     data = globals()['a']
     print(data)
-
 
 fun()
 print(a)
