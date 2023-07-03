@@ -5,7 +5,7 @@ def fun():
     global a
     a = 23
     print(a)
-
+print()
 
 
 def fun2():
@@ -13,6 +13,7 @@ def fun2():
 
 fun()
 fun2()
+print()
 
 
 def fun():
@@ -21,6 +22,7 @@ def fun():
     a = 23
     print(a)
     print(b)
+print()
 
 
 def fun2():
@@ -29,6 +31,7 @@ def fun2():
 
 fun()
 fun2()
+print()
 
 
 # By using global keyword we can perform modification on global variable inside function
@@ -42,6 +45,7 @@ def fun():
 
 fun()
 print(a)
+print()
 
 
 a = 23 # ----> Global variable
@@ -54,6 +58,7 @@ def fun():
 
 fun()
 print(a)
+print()
 
 
 a = 23 # ----> Global variable
@@ -67,6 +72,7 @@ def fun():
 
 fun()
 print(a)
+print()
 
 
 # globals()
@@ -80,6 +86,7 @@ def fun():
 fun()
 
 globals()
+print()
 
 a = 23
 
