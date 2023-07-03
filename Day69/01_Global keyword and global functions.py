@@ -10,7 +10,7 @@ def fun():
 
 def fun2():
     print(a)
-    
+
 fun()
 fun2()
 
@@ -32,15 +32,13 @@ fun2()
 
 
 # By using global keyword we can perform modification on global variable inside function
-
-a = 23
+a = 23 # ----> Global variable
 
 
 def fun():
     global a
     a = 999
     print(a)
-
 
 fun()
 print(a)
