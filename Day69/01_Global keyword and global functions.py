@@ -44,8 +44,7 @@ fun()
 print(a)
 
 
-a = 23
-
+a = 23 # ----> Global variable
 
 def fun():
     # print(a)    ---> Global will declare first, we can use any other variable but to change 'a' which is global variable first we have to write global 
@@ -53,13 +52,11 @@ def fun():
     a = 999
     print(a)
 
-
 fun()
 print(a)
 
 
-a = 23
-
+a = 23 # ----> Global variable
 
 def fun():
     b = 789
@@ -67,7 +64,6 @@ def fun():
     global a
     a = 999
     print(a)
-
 
 fun()
 print(a)
