@@ -6,11 +6,11 @@ def calculations(a, b):
     print(a/b)
     print(a % b)
 
-
 calculations(10, 2)
 cal = calculations
 print('after alishing')
 cal(50, 10)
+print()
 
 
 # ex 2:
@@ -26,7 +26,8 @@ calculations(10, 2)
 cal = calculations
 del calculations
 cal(50, 10)
-calculations(100,3)
+# calculations(100,3)
+print()
 
 
 def calculations(a, b):
@@ -40,6 +41,7 @@ def calculations(a, b):
 cal = calculations
 print(id(calculations))
 print(id(cal))
+print()
 
 
 def calculations(a, b):
