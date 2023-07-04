@@ -1,4 +1,4 @@
-# # function alishing
+# function alishing
 def calculations(a, b):
     print(a+b)
     print(a-b)
