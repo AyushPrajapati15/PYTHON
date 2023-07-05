@@ -11,14 +11,14 @@ x = outer()
 x()
 x()
 x()
-
+print()
 from turtle import xcor
 
 
 def fun1(abc):
     print('abc id is :', id(abc))
     return abc
-
+print()
 
 def x():
     print('x id is ', id(x))
