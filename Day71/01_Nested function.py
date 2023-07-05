@@ -1,5 +1,4 @@
 # nested function
-
 def outer_fun():
     print('i m inside outer fun')
 

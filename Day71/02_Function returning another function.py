@@ -12,7 +12,6 @@ x()
 x()
 x()
 
-
 from turtle import xcor
 
 
