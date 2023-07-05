@@ -7,6 +7,7 @@ def outer_fun():
     inner_fun()
 
 outer_fun()
+print()
 
 
 def outer_fun():
@@ -17,6 +18,7 @@ def outer_fun():
 
 outer_fun()
 # inner_fun()
+print()
 
 
 def outer_fun():
