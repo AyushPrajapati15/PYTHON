@@ -15,7 +15,6 @@ def outer_fun():
     def inner_fun():
         print('i m inside inner fun')
 
-
 outer_fun()
 # inner_fun()
 
