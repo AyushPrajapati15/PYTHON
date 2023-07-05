@@ -24,7 +24,6 @@ def x():
     print('x id is ', id(x))
     print('python....')
 
-
 data = fun1(x)
 print('data id is ', id(data))
 data()
