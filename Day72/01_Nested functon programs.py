@@ -5,7 +5,7 @@ def outer_function(num):
     return inner_function()
 
 result = outer_function(5)
-print(result)  # Output: 25
+print(result)
 print()
 
 
@@ -17,7 +17,7 @@ def outer_function(x, y):
     return inner_function()
 
 result = outer_function(3, 4)
-print(result)  # Output: 49
+print(result)
 print()
 
 
@@ -29,7 +29,7 @@ def outer_function(numbers):
     return inner_function()
 
 result = outer_function([1, 2, 3, 4, 5])
-print(result)  # Output: 15
+print(result) 
 print()
 
 
@@ -46,7 +46,7 @@ def outer_function(string):
     return inner_function()
 
 result = outer_function("Hello World")
-print(result)  # Output: 3
+print(result)
 print()
 
 
@@ -58,4 +58,4 @@ def outer_function(strings):
     return inner_function()
 
 result = outer_function(["madam", "hello", "level", "world"])
-print(result)  # Output: [True, False, True, False]
+print(result)
