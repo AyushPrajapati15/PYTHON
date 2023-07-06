@@ -9,7 +9,6 @@ print(result)
 print()
 
 
-
 def outer_function(x, y):
     def inner_function():
         return (x + y) ** 2
