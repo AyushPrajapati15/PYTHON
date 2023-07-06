@@ -6,6 +6,7 @@ def outer_function(num):
 
 result = outer_function(5)
 print(result)  # Output: 25
+print()
 
 
 def outer_function(x, y):
@@ -16,7 +17,7 @@ def outer_function(x, y):
 
 result = outer_function(3, 4)
 print(result)  # Output: 49
-
+print()
 
 def outer_function(numbers):
     def inner_function():
@@ -26,7 +27,7 @@ def outer_function(numbers):
 
 result = outer_function([1, 2, 3, 4, 5])
 print(result)  # Output: 15
-
+print()
 
 def outer_function(string):
     def inner_function():
@@ -41,7 +42,7 @@ def outer_function(string):
 
 result = outer_function("Hello World")
 print(result)  # Output: 3
-
+print()
 
 
 def outer_function(strings):
