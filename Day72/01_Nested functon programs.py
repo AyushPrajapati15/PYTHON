@@ -50,6 +50,7 @@ print(result)  # Output: 3
 print()
 
 
+
 def outer_function(strings):
     def inner_function():
         return [string == string[::-1] for string in strings]
