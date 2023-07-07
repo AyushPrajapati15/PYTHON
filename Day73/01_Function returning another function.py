@@ -41,11 +41,11 @@ final_price = ten_percent_discount(100)
 print(final_price)
 print()
 
+
 def power_of(n):
     def power(x):
         return x ** n
     return power
-
 
 square = power_of(2)
 result = square(5)
@@ -55,6 +55,7 @@ cube = power_of(3)
 result = cube(2)
 print(result)
 print()
+
 
 def create_incrementor(n):
     def incrementor(x):
