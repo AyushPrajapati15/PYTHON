@@ -1,6 +1,5 @@
 # Function returning another function
 
-# function called multiply_by that takes a number n as input and returns a function that multiplies its argument by n. Test the function by creating a multiplier function and using it to multiply a given number.
 def multiply_by(n):
     def multiplier(x):
         return x * n
@@ -9,7 +8,7 @@ def multiply_by(n):
 multiplier_2 = multiply_by(2)
 result = multiplier_2(5)
 print(result)
-
+print()
 
 
 def get_math_operation(operation):
@@ -29,6 +28,7 @@ print(result)
 multiplication = get_math_operation('multiply')
 result = multiplication(4, 2)
 print(result)
+print()
 
 
 def apply_discount(percent):
@@ -39,7 +39,7 @@ def apply_discount(percent):
 ten_percent_discount = apply_discount(10)
 final_price = ten_percent_discount(100)
 print(final_price)
-
+print()
 
 def power_of(n):
     def power(x):
@@ -54,7 +54,7 @@ print(result)
 cube = power_of(3)
 result = cube(2)
 print(result)
-
+print()
 
 def create_incrementor(n):
     def incrementor(x):
