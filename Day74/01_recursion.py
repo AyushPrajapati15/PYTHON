@@ -20,7 +20,7 @@ def fun(num):
 
 
 fun(1)
-
+print()
 
 
 
@@ -40,6 +40,7 @@ def star(num):
 
 
 star(1)
+print()
 
 
 
@@ -64,6 +65,7 @@ def star(num):
 
 star(5)
 
+print()
 
 
 
@@ -80,7 +82,7 @@ def sumofallno(n):
 
 
 print(sumofallno(5))
-
+print()
 
 
 
@@ -94,7 +96,7 @@ def fact(num):
 
 
 print(fact(4))
-
+print()
 
 
 # Fibonacci Series using Recursion(0,1,1,2,3,5,8,13................)
