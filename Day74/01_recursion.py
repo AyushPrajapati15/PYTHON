@@ -23,9 +23,6 @@ fun(1)
 print()
 
 
-
-
-
 # *
 # **
 # ***
@@ -41,13 +38,6 @@ def star(num):
 
 star(1)
 print()
-
-
-
-
-
-
-
 
 
 # *****
@@ -68,11 +58,6 @@ star(5)
 print()
 
 
-
-
-
-
-
 # find out sum of n natural number
 
 def sumofallno(n):
@@ -83,8 +68,6 @@ def sumofallno(n):
 
 print(sumofallno(5))
 print()
-
-
 
 
 # factorial of a number using recursion
@@ -100,8 +83,6 @@ print()
 
 
 # Fibonacci Series using Recursion(0,1,1,2,3,5,8,13................)
-
-
 def fib(num):
     if num <= 1:
         return num
