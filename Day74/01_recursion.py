@@ -9,10 +9,12 @@ def fun(num):
 
 
 fun(1)
+print()
 
 
+# print number from 1 to 5 using recursion in reverse order
 def fun(num):
-    if num == 3:
+    if num == 5:
         return
     else:
         fun(num+1)
