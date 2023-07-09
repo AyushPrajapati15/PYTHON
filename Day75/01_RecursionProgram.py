@@ -1,3 +1,4 @@
+# power
 def power(b, e):
     if e == 0:
         return 1
@@ -12,7 +13,7 @@ print()
 
 
 
-
+# reverse string
 def reverse_string(s):
     if len(s) <= 1:
         return s
@@ -26,7 +27,7 @@ print()
 
 
 
-
+# count vowels
 def count_vowels(s):
     vowels = ['a', 'e', 'i', 'o', 'u']
     if len(s) == 0:
@@ -43,7 +44,7 @@ print()
 
 
 
-
+# reverse number printing
 def count_down(n):
     if n <= 0:
         return
@@ -55,7 +56,7 @@ count_down(number)
 print()
 
 
-
+#  sum of list
 def sum_list(nums):
     if len(nums) == 0:
         return 0
