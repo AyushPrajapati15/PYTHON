@@ -9,7 +9,7 @@ base = 2
 exponent = 4
 result = power(base, exponent)
 print(f"{base} raised to the power of {exponent} is: {result}")
-
+print()
 
 
 
@@ -27,7 +27,7 @@ def reverse_string(s):
 string = "Hello, World!"
 result = reverse_string(string)
 print(f"The reverse of '{string}' is: '{result}'")
-
+print()
 
 
 
@@ -45,7 +45,7 @@ def count_vowels(s):
 string = "Hello, World!"
 result = count_vowels(string)
 print(f"The number of vowels in '{string}' is: {result}")
-
+print()
 
 
 
@@ -59,7 +59,7 @@ def count_down(n):
 # Example usage
 number = 5
 count_down(number)
-
+print()
 
 
 
