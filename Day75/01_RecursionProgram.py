@@ -4,15 +4,11 @@ def power(b, e):
     else:
         return b * power(b, e - 1)
 
-# Example usage
 base = 2
 exponent = 4
 result = power(base, exponent)
 print(f"{base} raised to the power of {exponent} is: {result}")
 print()
-
-
-
 
 
 
@@ -23,7 +19,6 @@ def reverse_string(s):
     else:
         return reverse_string(s[1:]) + s[0]
 
-# Example usage
 string = "Hello, World!"
 result = reverse_string(string)
 print(f"The reverse of '{string}' is: '{result}'")
@@ -41,7 +36,6 @@ def count_vowels(s):
     else:
         return count_vowels(s[1:])
 
-# Example usage
 string = "Hello, World!"
 result = count_vowels(string)
 print(f"The number of vowels in '{string}' is: {result}")
@@ -56,12 +50,9 @@ def count_down(n):
     print(n)
     count_down(n - 1)
 
-# Example usage
 number = 5
 count_down(number)
 print()
-
-
 
 
 
@@ -70,7 +61,6 @@ def sum_list(nums):
         return 0
     return nums[0] + sum_list(nums[1:])
 
-# Example usage
 my_list = [1, 2, 3, 4, 5]
 result = sum_list(my_list)
 print(f"The sum of the list is: {result}")
