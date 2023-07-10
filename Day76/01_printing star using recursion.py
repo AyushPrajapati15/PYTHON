@@ -50,5 +50,4 @@ def fun(num):
         fun(num+1)
         print(num)
 
-
 fun(0)
