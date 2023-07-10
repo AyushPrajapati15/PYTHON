@@ -36,7 +36,6 @@ def fun(num):
         print(num)
         fun(num+1)
 
-
 fun(1)
 print()
 
