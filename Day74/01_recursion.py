@@ -41,6 +41,21 @@ def star(num):
 star(1)
 print()
 
+# Alternate way
+# *****
+# ****
+# ***
+# **
+# *
+def starrev(num):
+    if num==6:
+        return
+    else:
+        starrev(num+1)
+        print('*'*num)
+
+starrev(1)
+print()
 
 # *****
 # ****
