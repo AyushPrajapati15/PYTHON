@@ -16,6 +16,7 @@ def fun1(num):
         fun2(num+1)
     return
 
+
 def fun2(num):
     if num<=6:
         print(f'Fun2 is {num*100}')
