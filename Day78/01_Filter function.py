@@ -19,12 +19,10 @@ data=list(filter(lambda x:x%2==0,l))
 print(data)
 print()
 
- 
 l=[10,20,21,33,17,89,56,19]
 data=tuple(filter(lambda x:x%2==0,l))
 print(data)
 print()
-
 
 l=[10,20,21,33,17,89,56,19]
 data=set(filter(lambda x:x%2==0,l))
@@ -46,14 +44,13 @@ print()
 l=[10,20,-39,49,-87,-65,-31]
 data=list(filter(lambda x:x<0,l))
 print(data)
-# print(list(filter(lambda x:x<0,l)))
+print(list(filter(lambda x:x<0,l)))
 print()
 
 
 # filter out all the common element from both list using filter() function 
 a=[10,20,30,40,50]
 l=[100,200,30,40,70]
-
 data=list(filter(lambda x:x in a,l))
 print(data)
 print()
