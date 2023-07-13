@@ -1,7 +1,6 @@
 # Map Function
 
 # add 4 to each and every element present in list without using lambda 
-#craete the body for add4 function 
 def add4(x):
     return x+4
 l=[10,20,30,40,50]
@@ -17,7 +16,7 @@ print(data)
 print()
 
 
-#find out square of ecah number preset inside tuple 
+#   find out square of each number preset inside tuple 
 t=(1,2,3,4,5,6)
 data1=tuple(map(lambda x:x*x,t))
 data=list(map(lambda x:x*x,t))
@@ -26,7 +25,7 @@ print(data1)
 print()
 
 
-#add individual elemenet of both list
+#   add individual elements of both list
 l1=[10,20,30,40,50]
 l2=[11,12,13,14,15]
 data=list(map(lambda x,y:x+y,l1,l2))
@@ -54,7 +53,7 @@ data=map(lambda x:len(x),names)
 print()
 
 
-# print(type(data))
+print(type(data))
 for i in data:
     print(i)
 print()
