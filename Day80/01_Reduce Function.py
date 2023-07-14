@@ -42,7 +42,7 @@ print()
 
 
 #working with list which is containg string data 
-names=['surendra','priyanka','rahul','zini']
+names=['Alice','Bob','Jack','Mary']
 data=reduce(lambda x,y:x+y,names,'hello')
 print(data)
 print(type(data))
