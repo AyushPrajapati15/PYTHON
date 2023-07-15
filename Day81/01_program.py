@@ -1,3 +1,5 @@
+# Filter map reduce programs
+
 from functools import reduce
 
 
@@ -13,7 +15,6 @@ print(uppercase_names)
 print()
 
 
-
 numbers = [1, 2, 3, 4, 5]
 product = reduce(lambda x, y: x * y, numbers)
 print(product)
@@ -24,7 +25,6 @@ strings = ["apple", "banana", "carrot", "date", "eggplant"]
 filtered_strings = list(filter(lambda x: len(x) > 5, strings))
 print(filtered_strings)
 print()
-
 
 
 numbers = [1, 2, 3, 4, 5]
@@ -39,7 +39,6 @@ print(filtered_strings)
 print()
 
 
-
 names = ["Alice", "Bob", "David", "Mary"]
 concatenated_names = list(reduce(lambda x, y: x + " " + y, names))
 print(concatenated_names)
@@ -47,8 +46,8 @@ print()
 
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-divisible_by_3_numbers = list(filter(lambda x: x % 3 == 0, numbers))
-print(divisible_by_3_numbers)
+divisible = list(filter(lambda x: x % 3 == 0, numbers))
+print(divisible)
 print()
 
 
