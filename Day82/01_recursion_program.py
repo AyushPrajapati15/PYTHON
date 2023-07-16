@@ -23,7 +23,7 @@ max_val, min_val = max_min(my_list)
 
 print("Maximum element:", max_val)
 print("Minimum element:", min_val)
-
+print()
 
 # palindrome string
 
