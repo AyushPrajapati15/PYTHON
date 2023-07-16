@@ -17,9 +17,7 @@ def max_min(lst):
             min_value = min_rest
         
         return max_value, min_value
-print()
-
-# palindrome string
+    
 my_list = [7, 2, 9, 1, 5]
 max_val, min_val = max_min(my_list)
 
@@ -27,6 +25,7 @@ print("Maximum element:", max_val)
 print("Minimum element:", min_val)
 
 
+# palindrome string
 
 def is_palindrome(string):
     
