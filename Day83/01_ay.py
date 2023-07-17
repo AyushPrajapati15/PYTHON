@@ -1,3 +1,4 @@
+# Calculator program
 def shape_calculator():
     def calculate_rectangle(length, width):
         area = length * width
