@@ -1,4 +1,5 @@
-# Calculator program
+# program using nested functions to calculate the area and perimeter of various shapes: rectangle, square, and circle.
+
 def shape_calculator():
     def calculate_rectangle(length, width):
         area = length * width
