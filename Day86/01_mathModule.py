@@ -2,11 +2,14 @@
 import math
 # print(help(math))
 print(dir(math))
+
+
 # area of circle
 area = math.pi*3.9*3.9
 print(area)
 
 print(math.e)
+
 
 # working with different function
 print(math.ceil(2.1))
