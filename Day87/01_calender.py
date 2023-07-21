@@ -1,5 +1,7 @@
 # calender module
+
 import calendar as c 
+
 days_name=list(c.day_name)
 print(days_name)
 print()
