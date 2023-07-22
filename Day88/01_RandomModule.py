@@ -1,4 +1,7 @@
+# Random module
+
 import random 
+
 #randint() ---> it will generate random int number in between 1 to 10 
 val=random.randint(1,10) # both 1 and 10 are included 
 print(val)
