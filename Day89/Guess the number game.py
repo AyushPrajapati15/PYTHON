@@ -9,6 +9,7 @@ count=0
 while(True):
 
     choice=int(input("Guess a number in between 1 - 10 \n"))
+    
     print()
 
     count=count+1
