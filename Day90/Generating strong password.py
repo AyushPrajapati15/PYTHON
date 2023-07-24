@@ -14,7 +14,8 @@ print()
 
 
 # sometimes alpha sometime digits
-print(rn.choice(alpha+digits))
+print(rn.choice(alpha+digits),
+      rn.choice(special_symbols+digits),sep='')
 print()
 
 alpha ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
