@@ -10,11 +10,12 @@ print(rn.choice(alpha),
       rn.choice(digits),
       rn.choice(alpha),
       rn.choice(alpha),sep='')
-
+print()
 
 
 # sometimes alpha sometime digits
 print(rn.choice(alpha+digits))
+print()
 
 alpha ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
 digits='0123456789'
@@ -26,6 +27,7 @@ print(rn.choice(alpha+digits),
       rn.choice(alpha),
       rn.choice(alpha),
       sep='')
+print()
 
 
 for i  in range(10):
