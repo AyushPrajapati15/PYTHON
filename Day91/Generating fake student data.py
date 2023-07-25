@@ -16,7 +16,7 @@ print()
 #studnet mobile no 
 digits="0123456789"
 
-for i in range(20):
+for i in range(10):
     smob=choice('9876')
     for i in range(9):
         smob=smob+choice(digits)
@@ -24,29 +24,31 @@ for i in range(20):
 print()
 
 #s_age
-for i in range(20):
+for i in range(10):
     sage=randint(16,25)
     print(sage)
 print()
 
+# Cities 
 cities=['bbsr','cuttack','hyd','delhi','puri']
-for i in range(20):
+for i in range(10):
     saddr=choice(cities)
     print(saddr)
 print()
   
+# Course
 course=['Btech','MCA','MBA','MTECH','PHD','MSC','MA']
-for i in range(20):
+for i in range(10):
     scourse=choice(course)
     print(scourse)
 print()
    
-#sid 
+#s_id 
 digits="0123456789"
 
 
-for i in range(20):
-    sid='xyz-'
+for i in range(10):
+    sid='id= '
     for i in range(6):
         sid=sid+choice(digits)
 
