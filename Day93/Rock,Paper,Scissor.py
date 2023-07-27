@@ -8,8 +8,10 @@ def get_user_choice():
         user_choice = input("Enter your choice (Rock/Paper/Scissors): ").lower()
     return user_choice
 
+
 def get_computer_choice():
     return random.choice(['rock', 'paper', 'scissors'])
+
 
 def determine_winner(user_choice, computer_choice):
     if user_choice == computer_choice:
