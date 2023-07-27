@@ -1,4 +1,5 @@
 # Rock paper scissor game
+
 import random
 
 def get_user_choice():
