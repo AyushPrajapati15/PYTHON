@@ -22,9 +22,11 @@ def determine_winner(user_choice, computer_choice):
         return "You win!" if computer_choice == 'rock' else "Computer wins!"
     elif user_choice == 'scissors':
         return "You win!" if computer_choice == 'paper' else "Computer wins!"
+ 
 
 def play_again():
     return input("Do you want to play again? (yes/no): ").lower() == 'yes'
+
 
 def main():
     print("Welcome to Rock, Paper, Scissors!")
@@ -41,6 +43,7 @@ def main():
 
         if not play_again():
             break
+
 
 if __name__ == "__main__":
     main()
