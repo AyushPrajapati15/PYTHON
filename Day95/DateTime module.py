@@ -10,6 +10,7 @@ print(d.month)
 print(d.year)
 print()
 
+
 t=datetime.time(17,55,45,458665)
 print("Time")
 print(t)
@@ -18,10 +19,12 @@ print(t.second)
 print(t.minute)
 print()
 
+
 dt=datetime.datetime(2023,7,29,17,15,50,4585)
 print("DateTime")
 print(dt)
 print()
+
 
 ct=datetime.datetime.now()
 print("Current DateTime")
