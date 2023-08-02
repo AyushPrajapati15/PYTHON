@@ -1,4 +1,5 @@
 # self variable
+
 #create a class Student having 3 attributes and 1 methods 
 
      
@@ -24,6 +25,7 @@ s3=Student()
 s2.printDetails()
 s1.printDetails()
 s3.printDetails()
+print()
 
 # here self and s1 pointing to same memory location
 class Student:
@@ -32,6 +34,7 @@ class Student:
         
 s1=Student()
 print(id(s1))
+print()
 
 class Student:
     def __init__(self):
@@ -44,6 +47,7 @@ print("-"*20)
         
 s2=Student()
 print(id(s2))
+print()
 
 #self is not a keyword 
 
@@ -62,6 +66,7 @@ class Student:
 
 s1=Student()
 s1.printDetails()
+print()
 
 # class Student:
 #     def __init__(name,age,course):
