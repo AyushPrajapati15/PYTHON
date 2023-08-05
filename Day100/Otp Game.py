@@ -32,7 +32,6 @@ def otp_verification_game():
                 print("Correct! You are a math whiz!")
             else:
                 print(f"Oops! Incorrect. The correct answer is {correct_answer}.")
-
             break
         else:
             attempts -= 1
