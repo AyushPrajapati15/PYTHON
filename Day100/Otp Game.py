@@ -1,4 +1,5 @@
 # OTP verification process
+
 import random
 
 def generate_otp():
